@@ -126,6 +126,7 @@ class Planner:
             else:
                 station = self.store.station_of_stop(leg.from_stop)
                 after = journey.legs[i - 1].arrival
+            # Several options often share a transfer point, so alternatives are cached per request.
             key = (journey.service_date, station.id, after, regional_only)
             if key not in cache:
                 cache[key] = self.options(journey.service_date, station, destination, after,
