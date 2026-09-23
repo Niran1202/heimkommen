@@ -115,6 +115,7 @@ class DelayModel:
             for j in range(0, len(rows), 2):
                 i = rows[j]["i"]
                 results[i] = LegPrediction(
+                    # Trains never leave early.
                     dep_q=np.maximum(quantiles[j], 0.0),
                     arr_q=quantiles[j + 1],
                     p_cancel=self._cancel_rate(rows[j]["line"], legs[i].board_eva, rows[j]["product"]),
