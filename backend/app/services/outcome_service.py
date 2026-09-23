@@ -31,6 +31,7 @@ def evaluate_prediction(db: Session, eng: Engine | None, prediction: PredictionL
     for leg in prediction.legs:
         planned_dep = midnight + timedelta(seconds=leg["departure"])
         planned_arr = midnight + timedelta(seconds=leg["arrival"])
+        # No delay data for buses: assume they ran as planned.
         if leg.get("category") not in MODELLED_CATEGORIES:
             actual.append((planned_dep, planned_arr, False))  # buses/trams: assumed on time
             continue
