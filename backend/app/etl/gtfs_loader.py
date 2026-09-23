@@ -210,6 +210,7 @@ class GTFSLoader:
             with self._open("stop_times.txt") as rows:
                 for row in rows or []:
                     trip_id = row["trip_id"]
+                    # stop_times.txt is grouped by trip: decide on a trip once all its rows are read.
                     if trip_id != current:
                         if current is not None:
                             decide(current, buffer)
