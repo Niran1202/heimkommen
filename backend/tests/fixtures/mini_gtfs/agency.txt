@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone
+a1,Test Bahn,https://example.org,Europe/Berlin

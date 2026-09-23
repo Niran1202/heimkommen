@@ -1,0 +1,9 @@
+route_id,service_id,trip_id,trip_headsign,trip_short_name,direction_id
+rb42,WD,rb1,Rottweil,69755,0
+rb42,WD,rb2,Rottweil,69757,0
+re87,WD,re1,Stuttgart,50182,0
+re87,WD,re2,Stuttgart,50480,0
+re87,WD,re3,Stuttgart,50490,0
+ic2,WD,ic1,Stuttgart,2006,0
+bus550,WD,bus1,Dorf,,0
+bus99,WD,bus2,Uni,,0

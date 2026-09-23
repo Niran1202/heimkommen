@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node
+node_modules/
+dist/
+*.tsbuildinfo
+frontend/openapi.json
+
+# Data (large or personal: never in git)
+/data/
+*.sqlite3
+*.db
+ci.db
+
+# Model artifacts: released via GitHub Releases, not committed.
+# evaluation.json and station_map.csv are small and non-personal, so they stay in git.
+/ml/artifacts/*
+!/ml/artifacts/.gitkeep
+!/ml/artifacts/evaluation.json
+!/ml/artifacts/station_map.csv
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+*.log

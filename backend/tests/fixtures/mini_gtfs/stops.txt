@@ -1,0 +1,12 @@
+stop_id,stop_name,stop_lat,stop_lon,location_type,parent_station,platform_code
+de:08326:1_Parent,Villingen Bahnhof,48.0578,8.4655,1,,
+de:08326:1:1:1,Villingen Bahnhof Gleis 1,48.0578,8.4655,0,de:08326:1_Parent,1
+de:08326:1:1:2,Villingen Bahnhof Gleis 2,48.0579,8.4656,0,de:08326:1_Parent,2
+de:08325:2_Parent,Rottweil Bahnhof,48.1586,8.6344,1,,
+de:08325:2:1:1,Rottweil Bahnhof Gleis 1,48.1586,8.6344,0,de:08325:2_Parent,1
+de:08325:2:1:2,Rottweil Bahnhof Gleis 2,48.1587,8.6345,0,de:08325:2_Parent,2
+de:08111:3_Parent,Stuttgart Hauptbahnhof,48.7840,9.1820,1,,
+de:08111:3:1:1,Stuttgart Hauptbahnhof Gleis 1,48.7840,9.1820,0,de:08111:3_Parent,1
+de:08325:4:0:1,Dorf Rathaus,48.2000,8.7000,0,,
+de:08111:5:0:1,Stuttgart Stadtmitte,48.7760,9.1730,0,,
+de:08111:6:0:1,Stuttgart Uni,48.7450,9.1050,0,,

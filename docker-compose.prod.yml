@@ -1,0 +1,88 @@
+# Production on a single small VM (Azure for Students B1s/B2s):
+#   docker compose -f docker-compose.prod.yml up -d --build
+# Only the regional timetable, the model artifact and small tables live on the server.
+services:
+  caddy:
+    build: {context: ./frontend, target: web}
+    restart: unless-stopped
+    environment:
+      DOMAIN: ${DOMAIN:?set DOMAIN, e.g. heimkommen.westeurope.cloudapp.azure.com}
+    ports: ["80:80", "443:443"]
+    volumes:
+      - ./infra/caddy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on: [api]
+
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-heimkommen}
+      POSTGRES_USER: ${POSTGRES_USER:-heimkommen}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD}
+    volumes: [postgres_data:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-heimkommen}"]
+      interval: 10s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    command: redis-server --maxmemory 64mb --maxmemory-policy allkeys-lru
+
+  api: &backend
+    build: ./backend
+    restart: unless-stopped
+    env_file: [.env]
+    environment:
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-heimkommen}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-heimkommen}
+      REDIS_URL: redis://redis:6379/0
+      APP_ENV: production
+      CORS_ORIGINS: https://${DOMAIN}
+      SIMULATOR_RUNS: ${SIMULATOR_RUNS:-1500}
+    volumes:
+      - ./data:/data
+      - ./ml/artifacts:/artifacts:ro
+    depends_on:
+      postgres: {condition: service_healthy}
+      redis: {condition: service_started}
+
+  worker:
+    <<: *backend
+    command: celery -A app.workers.celery_app worker --loglevel=info --concurrency=1
+    healthcheck: {disable: true}
+
+  beat:
+    <<: *backend
+    command: celery -A app.workers.celery_app beat --loglevel=info --schedule /data/celerybeat-schedule
+    healthcheck: {disable: true}
+
+  prometheus:
+    image: prom/prometheus:v2.54.1
+    restart: unless-stopped
+    command: ["--config.file=/etc/prometheus/prometheus.yml", "--storage.tsdb.retention.time=15d"]
+    volumes:
+      - ./infra/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+      - prometheus_data:/prometheus
+
+  grafana:
+    image: grafana/grafana:11.2.0
+    restart: unless-stopped
+    environment:
+      GF_SECURITY_ADMIN_PASSWORD: ${GRAFANA_ADMIN_PASSWORD:?set GRAFANA_ADMIN_PASSWORD}
+      GF_SERVER_ROOT_URL: https://${DOMAIN}/grafana/
+      GF_SERVER_SERVE_FROM_SUB_PATH: "true"
+      GF_USERS_ALLOW_SIGN_UP: "false"
+    volumes:
+      - ./infra/grafana/provisioning:/etc/grafana/provisioning:ro
+      - ./infra/grafana/dashboards:/var/lib/grafana/dashboards:ro
+      - grafana_data:/var/lib/grafana
+
+volumes:
+  postgres_data:
+  caddy_data:
+  caddy_config:
+  prometheus_data:
+  grafana_data:

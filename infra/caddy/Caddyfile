@@ -1,0 +1,38 @@
+# Automatic HTTPS via Let's Encrypt for $DOMAIN (free Azure DNS label or DuckDNS name).
+{$DOMAIN} {
+	encode zstd gzip
+
+	header {
+		Strict-Transport-Security "max-age=31536000"
+		X-Content-Type-Options nosniff
+		Referrer-Policy strict-origin-when-cross-origin
+		Permissions-Policy "geolocation=(self), camera=(), microphone=()"
+		-Server
+	}
+
+	# Metrics are for Prometheus on the internal network only.
+	respond /metrics 404
+
+	handle /api/* {
+		reverse_proxy api:8000
+	}
+	handle /health {
+		reverse_proxy api:8000
+	}
+	handle /docs* {
+		reverse_proxy api:8000
+	}
+	handle /openapi.json {
+		reverse_proxy api:8000
+	}
+	handle /grafana* {
+		reverse_proxy grafana:3000
+	}
+
+	# React single-page app
+	handle {
+		root * /srv
+		try_files {path} /index.html
+		file_server
+	}
+}

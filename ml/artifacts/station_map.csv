@@ -1,0 +1,1017 @@
+station_id,eva,gtfs_name,db_name,method,score
+de:06411:4734_Parent,08000068,Darmstadt Hauptbahnhof,Darmstadt Hbf,timetable,1.0
+de:06438:2705,08003523,Langen (Hessen) Bahnhof,Langen (Hess),timetable,1.0
+de:06412:10_Parent,08000105,Frankfurt (Main) Hauptbahnhof,Frankfurt (Main) Hbf,timetable,1.0
+de:06432:11251,08000948,Bickenbach Bahnhof,Bickenbach (Bergstr),timetable,1.0
+de:06431:4526,08006687,"Zwingenberg, Bahnhof",Zwingenberg (Bergstr),timetable,1.0
+de:06431:236_Parent,08000031,"Bensheim, Bahnhof",Bensheim,timetable,1.0
+de:06431:1502_Parent,08002757,"Heppenheim, Bahnhof",Heppenheim (Bergstr),timetable,1.0
+de:08226:1471_Parent,08002748,"Hemsbach, Bahnhof",Hemsbach,timetable,1.0
+de:08226:4109_Parent,08000377,"Weinheim, Hauptbahnhof",Weinheim (Bergstr) Hbf,timetable,1.0
+de:08226:1711_Parent,08003489,"Ladenburg, Bahnhof",Ladenburg,timetable,1.0
+de:08222:2331_Parent,08000631,"Neu-Edingen/Friedrichsfeld, Bf",Neu-Edingen/Friedrichsfeld,timetable,1.0
+de:08222:2417_Parent,08000244,"Mannheim, Hauptbahnhof",Mannheim Hbf,timetable,0.998
+de:08222:2586,08003847,"MA-Seckenheim, Bahnhof",Mannheim-Seckenheim,timetable,1.0
+de:08222:2641,08003841,"Mannheim, Arena/Maimarkt (DB)",Mannheim ARENA / Maimarkt,timetable,1.0
+de:08226:1825,08003571,"Laudenbach, Bahnhof",Laudenbach (Bergstr),timetable,1.0
+de:08226:4242,08006283,"Sulzbach, Bahnhof",Weinheim-Sulzbach,timetable,1.0
+de:08226:4081,08003792,"Lützelsachsen, Bahnhof",Weinheim-Lützelsachsen,timetable,1.0
+de:08226:1110_Parent,08002430,"Heddesheim-Hirschberg, Bf DB",Heddesheim/Hirschberg,timetable,1.0
+de:06431:248,08000877,"Auerbach, Bahnhof",Bensheim-Auerbach,timetable,1.0
+de:06432:11252,08002498,Alsbach Hähnlein-Alsbach Bahnhof,Hähnlein-Alsbach,timetable,1.0
+de:06411:11321,08001379,Darmstadt-Eberstadt Bahnhof,Darmstadt-Eberstadt,timetable,1.0
+de:06411:11320,08001377,Darmstadt Südbahnhof,Darmstadt Süd,timetable,1.0
+de:08226:4252_Parent,08006421,"Wiesloch-Walldorf, Bf",Wiesloch-Walldorf,timetable,1.0
+de:08226:1892_Parent,08005648,St. Ilgen-Sandhausen Bahnhof,St. Ilgen/Sandhausen,timetable,1.0
+de:08221:1203_Parent,08002686,"Kirchheim/Rohrbach, Bf",Heidelberg-Kirchheim/Rohrbach,timetable,1.0
+de:08221:1160_Parent,08000156,"Heidelberg, Hauptbahnhof",Heidelberg Hbf,timetable,1.0
+de:08221:1454_Parent,08002687,HD-Pfaffengrund/Wieblingen,Heidelberg-Pfaffengrund/Wieblingen,timetable,1.0
+de:06431:286_Parent,08000984,"Birkenau, Bahnhof",Birkenau,timetable,1.0
+de:06431:303,08005026,"Reisen, Bahnhof",Reisen (Hess),timetable,1.0
+de:06431:2886,08004066,"Mörlenbach, Bahnhof",Mörlenbach,timetable,1.0
+de:06431:3366,08006672,"Zotzenbach, Bahnhof",Zotzenbach,timetable,1.0
+de:06431:38890,08005100,"Rimbach, Schulzentrum Bf",Rimbach Schulzentrum,timetable,1.0
+de:06431:3360_Parent,08005098,"Rimbach, Bahnhof",Rimbach,timetable,1.0
+de:06431:891,08003731,"Lörzenbach-Fahrenbach, Bahnhof",Lörzenbach-Fahrenbach,timetable,1.0
+de:06431:874,08002150,"Fürth, Bahnhof",Fürth (Odenw),timetable,1.0
+de:07312:9035_Parent,08000189,"Kaiserslautern, Hbf",Kaiserslautern Hbf,timetable,1.0
+de:07316:3144_Parent,08000275,"Neustadt, Hauptbahnhof",Neustadt (Weinstr) Hbf,timetable,0.995
+de:07314:2019,08003759,"Ludwigshafen, Mitte",Ludwigshafen (Rhein) Mitte,timetable,0.997
+de:07314:2080_Parent,08000236,"Ludwigshafen, Hauptbahnhof",Ludwigshafen (Rhein) Hbf,timetable,0.997
+de:07311:771_Parent,08000332,"Frankenthal, Hauptbahnhof",Frankenthal Hbf,timetable,1.0
+de:07319:4415_Parent,08000257,"Worms, Hauptbahnhof",Worms Hbf,timetable,1.0
+de:08222:2416_Parent,08006508,"Mannheim, Handelshf./Jungbusch",Mannheim Handelshafen/Jungbusch,timetable,1.0
+de:08222:2446_Parent,08006511,Neckarstadt West,Mannheim-Neckarstadt,timetable,1.0
+de:08222:2386_Parent,08006509,Luzenberg,Mannheim-Luzenberg,timetable,1.0
+de:08222:2615_Parent,08003848,"Waldhof, Bahnhof",Mannheim-Waldhof,timetable,1.0
+de:06431:1771_Parent,08003503,"Lampertheim, Bahnhof",Lampertheim,timetable,1.0
+de:06431:416_Parent,08098360,"Bürstadt, Bahnhof",Bürstadt (Ried),timetable,1.0
+de:06431:410,08001034,"Bobstadt, Bahnhof",Bobstadt,timetable,1.0
+de:06431:270_Parent,08000503,"Biblis, Bahnhof",Biblis,timetable,1.0
+de:06431:990,08002391,"Groß-Rohrheim, Bahnhof",Groß Rohrheim,timetable,1.0
+de:06433:11269_Parent,08002249,Gernsheim Bahnhof,Gernsheim,timetable,1.0
+de:06433:11268,08000951,Biebesheim (Rhein) Bahnhof,Biebesheim,timetable,1.0
+de:06433:11267,08005740,Stockstadt (Rhein) Bahnhof,Stockstadt (Rhein),timetable,1.0
+de:06433:6802_Parent,08000126,Riedstadt-Goddelau Bahnhof,Riedstadt-Goddelau,timetable,1.0
+de:06433:6801,08003605,Riedstadt-Wolfskehlen Bahnhof,Riedstadt-Wolfskehlen,timetable,1.0
+de:06433:6899,08001511,Groß-Gerau Dornheim Bahnhof,Groß Gerau-Dornheim,timetable,1.0
+de:06433:4801,08002386,Groß-Gerau Dornberg Bahnhof,Groß Gerau-Dornberg,timetable,1.0
+de:06433:4899_Parent,08004065,Mörfelden-Walldorf-Mörfelden Bahnhof,Mörfelden,timetable,1.0
+de:06433:2802_Parent,08006175,Mörfelden-Walldorf-Walldorf Bahnhof,Walldorf (Hess),timetable,1.0
+de:06438:2801,08006648,Neu-Isenburg-Zeppelinheim Bahnhof,Zeppelinheim,timetable,1.0
+de:06412:2899_Parent,08002040,Frankfurt (Main) Stadion,Frankfurt (Main) Stadion,timetable,1.0
+de:06412:1830_Parent,08002050,Frankfurt (Main) Niederrad Bahnhof,Frankfurt (Main) Niederrad,timetable,1.0
+de:06411:4720,08001375,Darmstadt Nordbahnhof,Darmstadt Nord,timetable,1.0
+de:06411:11226,08001376,Darmstadt Ostbahnhof,Darmstadt Ost,timetable,1.0
+de:06411:16027,08001386,Darmstadt TU-Lichtwiese Bahnhof,Darmstadt-Lichtwiese,timetable,1.0
+gen:6432:384::,08004497,Ober-Ramstadt Bahnhof,Ober Ramstadt,timetable,1.0
+de:06432:11229,08005020,Reinheim (Odw.) Bahnhof,Reinheim (Odenw),timetable,1.0
+de:06432:11230,08003641,Otzberg-Lengfeld Bahnhof,Otzberg-Lengfeld,timetable,1.0
+de:06432:11219_Parent,08000384,Groß-Umstadt-Wiebelsbach Bahnhof,Groß Umstadt-Wiebelsbach,timetable,1.0
+de:06432:11227,08004350,Mühltal-Nieder-Ramstadt Mühltal Bahnhof,Mühltal,timetable,1.0
+de:06437:11231,08002813,Höchst (Odw.) Hetschbach Bahnhof,Höchst-Hetschbach,timetable,1.0
+de:06437:11220,08000172,Höchst (Odw.) Bahnhof,Höchst (Odenw),timetable,0.982
+de:06437:11232,08004125,Höchst (Odw.) Mümling-Grumbach Bahnhof,Höchst Mümling-Grumbach,timetable,0.982
+de:06437:11221,08000715,Bad König Bahnhof,Bad König,timetable,1.0
+de:06437:11233,08006643,Bad König-Zell Bahnhof,Bad König-Zell,timetable,1.0
+de:06437:11222_Parent,08004017,Michelstadt Bahnhof,Michelstadt,timetable,1.0
+de:06437:11305,08001811,Erbach (Odw.) Nord,Erbach (Odenw) Nord,timetable,0.982
+de:06437:11223_Parent,08001817,Erbach (Odw.) Bahnhof,Erbach (Odenw),timetable,1.0
+de:06437:11224_Parent,08002815,Oberzent-Hetzbach Bahnhof,Oberzent-Hetzbach,timetable,1.0
+de:06437:11447,08005393,Hesseneck-Schöllenbach Bahnhof,Oberzent-Schöllenbach,timetable,1.0
+de:06437:11448,08003144,Hesseneck Kailbach Bahnhof,Oberzent-Kailbach,timetable,1.0
+de:08226:534_Parent,08000369,"Eberbach, Bahnhof",Eberbach,timetable,1.0
+de:06432:11228,08004497,Ober-Ramstadt Bahnhof,Ober Ramstadt,timetable,1.0
+de:08421:1008_Parent,08000170,Ulm Hauptbahnhof,Ulm Hbf,timetable,1.0
+de:09775:1711_Parent,08006730,Neu-Ulm Bahnhof,Neu-Ulm,timetable,1.0
+de:09775:1870_Parent,08001985,Neu-Ulm Bahnhalt Finningerstr.,Finningerstraße,timetable,1.0
+de:09775:1781_Parent,08002244,Gerlenhofen Bahnhof,Gerlenhofen,timetable,1.0
+de:09775:4101_Parent,08005532,Senden Bahnhof,Senden,timetable,1.0
+de:09775:4202_Parent,08006094,Vöhringen Bahnhof,Vöhringen,timetable,1.0
+de:09775:4301_Parent,08003057,Illertissen Bahnhof,Illertissen,timetable,1.0
+de:09775:4261,08000862,Bellenberg,Bellenberg,timetable,1.0
+de:09775:4401_Parent,08000539,Altenstadt Bahnhof,Altenstadt (Iller),timetable,1.0
+de:09775:4441,08003227,Kellmünz,Kellmünz,timetable,1.0
+de:09764:3100_Parent,08000249,Memmingen,Memmingen,timetable,1.0
+de:09162:100_Parent,08000261,München Hbf,München Hbf,timetable,0.99
+de:09162:10_Parent,08004158,Pasing,München-Pasing,timetable,1.0
+de:09771:1100,08003982,Mering,Mering,timetable,1.0
+de:09771:1120,08004008,Mering-St. Afra,Mering-St Afra,timetable,1.0
+de:09771:1000,08003299,Kissing,Kissing,timetable,1.0
+de:09761:200,08000661,Augsburg-Hochzoll,Augsburg-Hochzoll,timetable,1.0
+de:09761:111,08000658,Augsburg Haunstetterstraße,Augsburg Haunstetterstraße,timetable,1.0
+de:09761:100_Parent,08000013,Augsburg Hbf,Augsburg Hbf,timetable,1.0
+de:09761:400_Parent,08000662,Augsburg-Oberhausen,Augsburg-Oberhausen,timetable,1.0
+de:09772:5000,08004318,Neusäß,Neusäß,timetable,1.0
+de:09772:5050,08006378,Westheim (Schwab),Westheim (Schwab),timetable,1.0
+de:09772:6100,08001439,Diedorf (Schwab),Diedorf (Schwab),timetable,1.0
+de:09772:6200,08002263,Gessertshausen,Gessertshausen,timetable,1.0
+de:09772:6300,08003483,Kutzenhausen,Kutzenhausen,timetable,1.0
+de:09772:6400_Parent,08001468,Dinkelscherben,Dinkelscherben,timetable,1.0
+de:09774:2818_Parent,08002074,Freihalden,Freihalden,timetable,1.0
+de:09774:2748,08003123,Jettingen,Jettingen,timetable,1.0
+de:09774:2790_Parent,08001276,Burgau (Schwab),Burgau (Schwab),timetable,1.0
+de:09774:2731,08004030,Mindelaltheim,Mindelaltheim,timetable,1.0
+de:09774:2779_Parent,08004654,Offingen,Offingen,timetable,1.0
+de:09774:2600_Parent,08000139,Günzburg,Günzburg,timetable,1.0
+de:09774:2942,08003627,Leipheim,Leipheim,timetable,1.0
+de:09775:4801_Parent,08004239,Nersingen Bahnhof,Nersingen,timetable,1.0
+de:09179:6160,08004204,Mammendorf,Mammendorf,timetable,1.0
+de:09179:6520,08002623,Haspelmoor,Haspelmoor,timetable,1.0
+de:09179:6530,08000545,Althegnenberg,Althegnenberg,timetable,1.0
+de:09181:502,08000119,Geltendorf,Geltendorf,timetable,1.0
+de:09181:503,08000195,Kaufering,Kaufering,timetable,1.0
+de:09777:1000_Parent,08000057,Buchloe,Buchloe,timetable,1.0
+de:09778:3200,08000144,Türkheim(Bay)Bahnhof,Türkheim (Bay),timetable,1.0
+de:09778:3856,08004927,Rammingen (Bay),Rammingen (Bay),timetable,1.0
+de:09778:2700,08000338,Mindelheim,Mindelheim,timetable,1.0
+de:09778:3088,08005725,Stetten (Schwab),Stetten (Schwab),timetable,1.0
+de:09778:3078,08005607,Sontheim (Schwab),Sontheim (Schwab),timetable,1.0
+de:08436:9002_Parent,08006200,Wangen Bahnhof,Wangen (Allgäu),timetable,1.0
+de:08436:1159_Parent,08000203,Kißlegg Bahnhof,Kißlegg,timetable,1.0
+de:08436:1190_Parent,08000336,Leutkirch Bahnhof,Leutkirch,timetable,1.0
+de:08436:1228_Parent,08000454,Aichstetten Bahnhof,Aichstetten,timetable,1.0
+de:08436:1235_Parent,08003897,"Aitrach (Kr Ravensb), Bahnhof",Marstetten-Aitrach,timetable,1.0
+de:08426:6587,08005823,Tannheim (Württ),Tannheim (Württ),timetable,1.0
+de:09778:3364_Parent,08002378,Bad Grönenbach,Bad Grönenbach,timetable,1.0
+de:09780:318,08001454,Dietmannsried,Dietmannsried,timetable,1.0
+de:09763:688,08003230,Kempten (Allgäu) Ost,Kempten (Allgäu) Ost,timetable,1.0
+de:09763:99_Parent,08000197,Kempten (Allgäu) Hbf,Kempten (Allgäu) Hbf,timetable,1.0
+de:09780:9016,08003901,Martinszell (Allgäu),Martinszell (Allgäu),timetable,1.0
+de:09780:750,08003065,Immenstadt,Immenstadt,timetable,1.0
+de:09780:809_Parent,08001004,Blaichach (Allgäu),Blaichach (Allgäu),timetable,1.0
+de:09780:800_Parent,08005609,Sonthofen,Sonthofen,timetable,1.0
+de:09780:897,08000561,Altstädten (Allgäu),Altstädten (Allgäu),timetable,1.0
+de:09780:702_Parent,08001995,Fischen,Fischen,timetable,1.0
+de:09780:703_Parent,08003551,Langenwang (Schwab),Langenwang (Schwab),timetable,1.0
+de:09780:700_Parent,08004585,Oberstdorf,Oberstdorf,timetable,1.0
+de:09776:1546_Parent,08000230,Lindau-Insel,Lindau-Insel,timetable,1.0
+de:09776:1860_Parent,08000387,Hergatz,Hergatz,timetable,1.0
+de:08136:1000_Parent,08000002,"Aalen, Hauptbahnhof",Aalen Hbf,timetable,1.0
+de:08136:1906,08006217,"Wasseralf., Bahnhof",Wasseralfingen,timetable,1.0
+de:08136:1512_Parent,08000380,"Goldshöfe, Bahnhof",Goldshöfe,timetable,1.0
+de:08136:5817,08006376,"Westhausen, Bahnhof",Westhausen,timetable,1.0
+de:08136:4817,08003569,"Lauchheim, Bahnhof",Lauchheim,timetable,1.0
+de:08136:4244,08000655,"Aufhausen, Bahnhof",Aufhausen (Württ),timetable,1.0
+de:08136:4204,08001090,"Bopfingen, Bahnhof",Bopfingen,timetable,1.0
+de:08136:4245,08005908,"Trochtelfingen, Bahnhof",Trochtelfingen (b Bopfingen),timetable,1.0
+de:08136:5301,08004796,"Pflaumloch, Bahnhof",Pflaumloch,timetable,1.0
+de:09779:6514_Parent,08000280,Nördlingen,Nördlingen,timetable,1.0
+de:09779:5342,08004071,Möttingen,Möttingen,timetable,1.0
+de:09779:5356,08002994,Hoppingen,Hoppingen,timetable,1.0
+de:09779:7002,08002593,Harburg (Schwab),Harburg (Schwab),timetable,1.0
+de:09779:7001,08001628,Ebermergen,Ebermergen,timetable,1.0
+de:09779:4500,08006533,Wörnitzstein,Wörnitzstein,timetable,1.0
+de:09779:5500_Parent,08000078,Donauwörth,Donauwörth,timetable,1.0
+de:09779:6200,08003989,Mertingen Bahnhof,Mertingen Bahnhof,timetable,1.0
+de:09772:4400,08004451,Nordendorf,Nordendorf,timetable,1.0
+de:09772:4300,08003952,Meitingen,Meitingen,timetable,1.0
+de:09779:5954,08000778,Bäumenheim,Bäumenheim,timetable,1.0
+de:09772:4450,08006363,Westendorf,Westendorf,timetable,1.0
+de:09772:4350,08002761,Herbertshofen,Herbertshofen,timetable,1.0
+de:09772:4200,08003560,Langweid (Lech),Langweid (Lech),timetable,1.0
+de:09772:4100,08002162,Gablingen,Gablingen,timetable,1.0
+de:09772:4000,08002256,Gersthofen,Gersthofen,timetable,1.0
+de:09776:1592_Parent,08003693,Lindau-Reutin,Lindau-Reutin,timetable,1.0
+de:09779:6568,08002233,Genderkingen,Genderkingen,timetable,1.0
+de:09779:5451,08004922,Rain,Rain,timetable,1.0
+de:09185:7954,08001285,Burgheim,Burgheim,timetable,1.0
+de:09185:8707,08005749,Straß-Moos,Straß-Moos,timetable,1.0
+de:09185:7967,08005993,Unterhausen (Bay),Unterhausen (Bay),timetable,1.0
+de:09185:7600,08004254,Neuburg (Donau),Neuburg (Donau),timetable,1.0
+de:09185:8709,08005149,Rohrenfeld,Rohrenfeld,timetable,1.0
+de:09185:8708,08006256,Weichering,Weichering,timetable,1.0
+de:09161:9000_Parent,08000183,Ingolstadt Hbf,Ingolstadt Hbf,timetable,1.0
+de:09773:7350_Parent,08002466,Gundelfingen (Bay),Gundelfingen (Bay),timetable,1.0
+de:09773:5200,08003589,Lauingen,Lauingen,timetable,1.0
+de:09773:5300_Parent,08001463,Dillingen (Donau),Dillingen (Donau),timetable,1.0
+de:09773:5400_Parent,08002888,Höchstädt (Donau),Höchstädt (Donau),timetable,1.0
+de:09773:7450,08001028,Blindheim,Blindheim,timetable,1.0
+de:09773:6569,08005489,Schwenningen (Bay),Schwenningen (Bay),timetable,1.0
+de:09779:6567,08005824,Tapfheim,Tapfheim,timetable,1.0
+de:09161:9009,08003076,Ingolstadt Nord,Ingolstadt Nord,timetable,1.0
+de:09661:99082_Parent,08000010,Aschaffenburg Hbf,Aschaffenburg Hbf,timetable,1.0
+de:09661:1080,08000619,Aschaffenburg Süd,Aschaffenburg Süd,timetable,1.0
+de:09661:99084,08000618,Aschaffenburg Hochschule,Aschaffenburg Hochschule,timetable,1.0
+de:08136:1504_Parent,08002930,"Hofen, Bahnhof",Hofen (b Aalen),timetable,1.0
+de:09564:510_Parent,08000284,Nürnberg Hbf,Nürnberg Hbf,timetable,1.0
+de:09573:5150_Parent,08005177,Roßtal,Roßtal,timetable,1.0
+de:09571:12650_Parent,08002705,Heilsbronn,Heilsbronn,timetable,1.0
+de:09571:13270,08006390,Wicklesgreuth,Wicklesgreuth,timetable,1.0
+de:09561:11000_Parent,08000009,Ansbach,Ansbach,timetable,1.0
+de:09571:12900,08003664,Leutersh.-Wiedersbach Bf,Leutershausen-Wiedersbach,timetable,1.0
+de:09571:12430_Parent,08000365,Dombühl,Dombühl,timetable,1.0
+de:09571:13390,08005388,Schnelldorf,Schnelldorf,timetable,1.0
+de:08127:20839,08002168,Gaildorf West,Gaildorf West,timetable,1.0
+de:08119:4916_Parent,08004188,Murrhardt,Murrhardt,timetable,1.0
+de:08119:4952_Parent,08005795,Sulzbach (M),Sulzbach (Murr),timetable,1.0
+de:08119:5786_Parent,08004681,Oppenweiler,Oppenweiler (Württ),timetable,1.0
+de:08119:7600_Parent,08000016,Backnang,Backnang,timetable,1.0
+de:08119:7605_Parent,08006479,Winnenden,Winnenden,timetable,1.0
+de:08119:7604_Parent,08000180,Waiblingen,Waiblingen,timetable,1.0
+de:08111:6333_Parent,08005769,Bad Cannstatt,Stuttgart-Bad Cannstatt,timetable,1.0
+de:08111:6115_Parent,08000096,Stuttgart Hauptbahnhof (oben),Stuttgart Hbf,timetable,0.999
+de:08127:21001_Parent,08000067,Crailsheim Bahnhof,Crailsheim,timetable,1.0
+de:09571:13330,08005250,Sachsen (b Ansbach),Sachsen (b Ansbach),timetable,1.0
+de:09564:610,08004485,Nürnberg-Schweinau,Nürnberg-Schweinau,timetable,1.0
+de:08127:20785_Parent,08001982,Fichtenberg Bahnhof,Fichtenberg,timetable,1.0
+de:09564:1910,08004486,Nürnberg-Stein,Nürnberg-Stein,timetable,1.0
+de:08311:6508_Parent,08000107,Freiburg Hauptbahnhof,Freiburg (Breisgau) Hbf,timetable,1.0
+de:08311:6510,08002067,Freiburg Herdern Bahnhof,Freiburg-Herdern,timetable,1.0
+de:08311:6512,08002071,Freiburg Zähringen Bahnhof,Freiburg-Zähringen,timetable,1.0
+de:08315:6514_Parent,08002465,Gundelfingen (Brsg) Bahnhof,Gundelfingen,timetable,1.0
+de:08316:6505_Parent,08001415,Denzlingen Bahnhof,Denzlingen,timetable,1.0
+de:08316:6532,08001234,Buchholz (Brsg) Bahnhof,Buchholz (Baden),timetable,1.0
+de:08316:6531_Parent,08000821,Batzenhäusle Bahnhof,Batzenhäusle,timetable,1.0
+de:08316:6530_Parent,08006159,Waldkirch (Brsg) Bahnhof,Waldkirch,timetable,1.0
+de:08316:6533_Parent,08003399,Kollnau Bahnhof,Kollnau,timetable,1.0
+de:08316:6515,08002478,Gutach (Brsg) Bahnhof,Gutach (Breisgau),timetable,1.0
+de:08316:6503,08001017,Bleibach Bahnhof,Bleibach,timetable,1.0
+de:08316:6524,08004423,Niederwinden Bahnhof,Niederwinden,timetable,1.0
+de:08316:6525,08004603,Oberwinden Bahnhof,Oberwinden,timetable,1.0
+de:08316:6507_Parent,08001766,Elzach Bahnhof,Elzach,timetable,1.0
+de:08315:6501_Parent,08000718,Bad Krozingen Bahnhof,Bad Krozingen,timetable,1.0
+de:08315:6504_Parent,08001143,Breisach Bahnhof,Breisach,timetable,1.0
+de:07111:010001_Parent,08000206,Koblenz Hauptbahnhof,Koblenz Hbf,timetable,1.0
+gen:7137:3639::,08003350,Kobern-Gondorf Bahnhof,Kobern-Gondorf,timetable,1.0
+gen:7135:3646::,08003179,Treis-Karden Bahnhof,Treis-Karden,timetable,1.0
+gen:7135:1402::,08001340,Cochem Bahnhof,Cochem (Mosel),timetable,1.0
+gen:7135:1400::,08001267,Bullay Bahnhof,Bullay (DB),timetable,1.0
+de:07231:40916,08000379,"Wittlich, Hauptbahnhof",Wittlich Hbf,timetable,1.0
+de:07235:6507,08005476,"Schweich, Bahnhof",Schweich (DB),timetable,1.0
+de:07211:1318_Parent,08000134,"Trier, Hauptbahnhof",Trier Hbf,timetable,1.0
+de:07235:10487,08003402,"Konz, Bahnhof",Konz,timetable,1.0
+de:07235:7484,08005245,"Saarburg, Bahnhof",Saarburg (Bz Trier),timetable,1.0
+de:10042:8004004,08004004,Mettlach,Mettlach,timetable,1.0
+de:10042:8003992,08003992,Merzig (Saar),Merzig (Saar),timetable,1.0
+de:10044:8000075,08000075,Dillingen (Saar),Dillingen (Saar),timetable,1.0
+de:10044:8005247,08005247,Saarlouis Hbf,Saarlouis Hbf,timetable,1.0
+de:10041:8000175,08000175,Völklingen,Völklingen,timetable,1.0
+de:10041:8000323_Parent,08000323,Saarbrücken Hbf,Saarbrücken Hbf,timetable,1.0
+de:10045:8005649,08005649,St. Ingbert,St. Ingbert,timetable,1.0
+de:10045:8000176_Parent,08000176,Homburg (Saar) Hbf,Homburg (Saar) Hbf,timetable,1.0
+de:07335:8123_Parent,08003515,"Landstuhl, Bahnhof",Landstuhl,timetable,1.0
+de:10042:8000840,08000840,Beckingen (Saar),Beckingen (Saar),timetable,1.0
+de:10044:8001110,08001110,Bous (Saar),Bous (Saar),timetable,1.0
+de:07335:9117_Parent,08002875,"Hochspeyer, Bahnhof",Hochspeyer,timetable,1.0
+de:07332:1730,08003497,"Lambrecht, Bahnhof",Lambrecht (Pfalz),timetable,1.0
+de:07316:3145_Parent,08004489,"Neustadt, Böbig",Neustadt-Böbig,timetable,1.0
+de:07332:1080_Parent,08002632,"Haßloch, Bahnhof",Haßloch (Pfalz),timetable,1.0
+de:07338:373,08001057,"Böhl-Iggelheim, Bahnhof",Böhl-Iggelheim,timetable,0.991
+de:07338:3430_Parent,08000326,"Schifferstadt, Bahnhof",Schifferstadt,timetable,0.995
+de:07312:8125,08001720,"Einsiedlerhof, Bahnhof",Einsiedlerhof,timetable,1.0
+de:07335:8124,08003257,"Kindsbach, Bahnhof",Kindsbach,timetable,1.0
+de:07335:8122,08002655,"Hauptstuhl, Bahnhof",Hauptstuhl,timetable,1.0
+de:07335:8121,08001200,"Bruchmühlbach-Miesau, Bahnhof",Bruchmühlbach-Miesau,timetable,1.0
+de:10041:8001302,08001302,Burbach Mitte,Burbach Mitte,timetable,1.0
+de:10041:8003796,08003796,Luisenthal (Saar),Luisenthal (Saar),timetable,1.0
+de:10044:8001799,08001799,Ensdorf (Saar),Ensdorf (Saar),timetable,1.0
+de:10042:8002083,08002083,Fremersdorf,Fremersdorf,timetable,1.0
+de:10042:8003991,08003991,Merzig (Saar) Stadtmitte,Merzig Stadtmitte,timetable,1.0
+de:10042:8000926,08000926,Besseringen,Besseringen,timetable,1.0
+de:10042:8005246,08005246,Saarhölzbach,Saarhölzbach,timetable,1.0
+de:07235:7511,08005812,"Taben, Bahnhof",Taben,timetable,1.0
+de:07235:11150,08005539,"Serrig, Bahnhof",Serrig,timetable,1.0
+de:07235:11130,08005392,"Schoden-Ockfen, Bahnhof",Schoden-Ockfen,timetable,1.0
+de:07235:10989,08006461,"Wiltingen (Saar), Bahnhof",Wiltingen (Saar),timetable,1.0
+de:07235:10413,08003173,"Kanzem, Bahnhof",Kanzem,timetable,1.0
+de:07235:10502,08000402,"Karthaus, Bahnhof",Karthaus,timetable,1.0
+de:07211:1501,08005905,"Trier, Südbahnhof",Trier Süd,timetable,1.0
+de:10041:8005243,08005243,Saarbrücken-Burbach,Saarbrücken-Burbach,timetable,1.0
+de:07235:10425,08003434,"Konz, Kreuz",Kreuz Konz,timetable,1.0
+de:07235:11155,08003042,"Igel, Bahnhof",Igel,timetable,1.0
+de:10043:8003516,08003516,Landsweiler-Reden,Landsweiler-Reden,timetable,1.0
+de:10041:8002117,08002117,Friedrichsthal (Saar),Friedrichsthal (Saar),timetable,1.0
+de:10041:8005796,08005796,Sulzbach (Saar),Sulzbach (Saar),timetable,1.0
+de:10041:8001570,08001570,Dudweiler,Dudweiler,timetable,1.0
+de:06412:1008_Parent,08000106,Frankfurt (Main) Höchst Bahnhof,Frankfurt-Höchst,timetable,1.0
+de:06436:6998,08002872,Hochheim (Main) Bahnhof,Hochheim (Main),timetable,1.0
+de:07315:9037_Parent,08000240,"Mainz, Hauptbahnhof",Mainz Hbf,timetable,1.0
+de:07318:3603_Parent,08005628,"Speyer, Hbf/ZOB",Speyer Hbf,timetable,1.0
+de:07334:32637_Parent,08000376,"Germersheim, Bahnhof",Germersheim,timetable,1.0
+de:08215:32589_Parent,08004813,Philippsburg (Baden),Philippsburg (Baden),timetable,1.0
+de:08215:32585_Parent,08000131,Graben-Neudorf,Graben-Neudorf,timetable,0.989
+de:08212:90_Parent,08000191,Karlsruhe Hauptbahnhof,Karlsruhe Hbf,timetable,1.0
+de:08215:32588,08005067,Rheinsheim,Rheinsheim,timetable,1.0
+de:07334:35001,08003702,"Lingenfeld, Bahnhof",Lingenfeld,timetable,1.0
+de:07338:3393,08002704,"Heiligenstein, Bahnhof",Heiligenstein (Pfalz),timetable,1.0
+de:07338:3391,08000894,Berghausen (Pfalz) Bahnhof,Berghausen (Pfalz),timetable,0.989
+de:07338:3434_Parent,08005345,"Schifferstadt, Südbahnhof",Schifferstadt Süd,timetable,1.0
+de:07331:3295_Parent,08004714,"Osthofen, Bahnhof",Osthofen,timetable,1.0
+de:07339:9120,08002474,"Guntersblum, Bahnhof",Guntersblum,timetable,1.0
+de:07339:8085,08004680,"Oppenheim, Bahnhof",Oppenheim,timetable,1.0
+de:07339:8084,08004432,"Nierstein, Bahnhof",Nierstein,timetable,1.0
+de:07315:8018,08003816,"Mainz, Römisches Theater",Mainz Römisches Theater,timetable,1.0
+de:07332:4065_Parent,08006261,"Weidenthal, Bahnhof",Weidenthal,timetable,1.0
+de:07337:8301,08001663,"Edenkoben, Bahnhof",Edenkoben,timetable,1.0
+de:07313:8304_Parent,08000216,"Landau, Hauptbahnhof",Landau (Pfalz) Hbf,timetable,1.0
+de:07334:32490,08003172,"Kandel, Bahnhof",Kandel,timetable,1.0
+de:07334:1740,08006536,"Wörth, Mozartstraße",Wörth Mozartstraße,timetable,1.0
+de:07334:1731_Parent,08000254,"Wörth/Rh, Bahnhof",Wörth (Rhein),timetable,0.997
+de:07339:4849_Parent,08000359,"Bodenheim, Bahnhof",Bodenheim,timetable,1.0
+de:07339:8083,08004193,"Nackenheim, Bahnhof",Nackenheim,timetable,1.0
+de:07311:7090_Parent,08002025,"Frankenthal, Haltepunkt Süd",Frankenthal Süd,timetable,1.0
+de:07338:336_Parent,08001032,"Bobenheim, Bahnhof",Bobenheim,timetable,1.0
+de:07339:8183_Parent,08000039,"Bingen, Hauptbahnhof",Bingen (Rhein) Hbf,timetable,1.0
+de:07339:8199,08000976,"Bingen, Stadtbahnhof",Bingen (Rhein) Stadt,timetable,1.0
+de:07339:8190,08000121,"Gensingen-Horrweiler, Bahnhof",Gensingen-Horrweiler,timetable,1.0
+de:07339:8005,08006312,Welgesheim-Zotzenheim,Welgesheim-Zotzenheim,timetable,1.0
+de:07339:8004,08005637,"Sprendlingen, Bahnhof",Sprendlingen (Rheinhess),timetable,1.0
+de:07331:8003,08002191,"Gau-Bickelheim, Bahnhof",Gau Bickelheim,timetable,1.0
+de:07331:8002,08006183,"Wallertheim, Bahnhof",Wallertheim,timetable,1.0
+de:07331:8001,08000602,"Armsheim, Bahnhof",Armsheim,timetable,1.0
+de:07331:8013,08000468,"Albig, Bahnhof",Albig,timetable,1.0
+de:07331:55_Parent,08000007,"Alzey, Bahnhof",Alzey,timetable,1.0
+de:07331:4755,08000558,"Alzey, Südbahnhof",Alzey Süd,timetable,1.0
+de:07331:700,08001813,"Eppelsheim, Bahnhof",Eppelsheim (Rheinhess),timetable,1.0
+de:07331:1036,08002473,"Gundersheim, Bahnhof",Gundersheim (Rheinhess),timetable,1.0
+de:07331:3235,08004345,"Flörsheim-Dalsheim, Bhf",Nieder Flörsheim-Dalsheim,timetable,1.0
+de:07331:2862_Parent,08000663,"Monsheim, Bahnhof",Monsheim,timetable,1.0
+de:07319:4364,08004788,"Pfeddersheim, Bahnhof",Worms-Pfeddersheim,timetable,1.0
+de:07314:2148_Parent,08003766,"LU-Oggersheim, Bahnhof",Ludwigshafen-Oggersheim,timetable,1.0
+de:07332:1009,08000137,"Grünstadt, Bahnhof",Grünstadt,timetable,1.0
+de:07332:1685,08003285,"Kirchheim/Wstr., Bahnhof",Kirchheim (Weinstr),timetable,1.0
+de:07332:1553,08002798,"Herxheim a.B., Bahnhof",Herxheim am Berg,timetable,1.0
+de:07332:840_Parent,08000374,"Freinsheim, Bahnhof",Freinsheim,timetable,1.0
+de:07332:4205,08006292,"Weisenheim/S, Bahnhof",Weisenheim (Sand),timetable,1.0
+de:07338:1745,08003498,"Lambsheim, Bahnhof",Lambsheim,timetable,1.0
+de:07311:765,08002014,"Flomersheim, Bahnhof",Flomersheim,timetable,1.0
+de:07332:1012,08002444,"Grünstadt, Bahnhof Nord",Grünstadt Nord,timetable,1.0
+de:07332:1003,08000625,"Asselheim, Bahnhof",Asselheim,timetable,1.0
+de:07332:2845,08003988,"Mertesheim, Bahnhof",Mertesheim,timetable,1.0
+de:07332:609,08001638,"Ebertsheim, Bahnhof",Ebertsheim,timetable,1.0
+de:07333:3798,08001728,"Eisenberg (Pfalz), Bahnhof",Eisenberg (Pfalz),timetable,1.0
+de:07333:5000,08004935,"Ramsen (Pfalz), Bahnhof",Ramsen,timetable,1.0
+de:07332:3263,08070096,"Albsheim, Bahnhof",Albsheim (Eis),timetable,1.0
+de:07332:391,08001043,"Bockenheim-Kindenheim, Bahnhof",Bockenheim-Kindenheim,timetable,1.0
+de:07331:1635,08002958,"Hohen-Sülzen, Bahnhof",Hohensülzen,timetable,1.0
+de:07316:3135,08004189,"Mußbach, Bahnhof",Mußbach,timetable,1.0
+de:07332:470,08001399,"Deidesheim, Bahnhof",Deidesheim,timetable,1.0
+de:07332:3895,08006125,"Wachenheim/Wstr, Bahnhof",Wachenheim (Pfalz),timetable,1.0
+de:07332:116,08000698,"Bad Dürkheim, Bahnhof",Bad Dürkheim,timetable,1.0
+de:07332:144,08000708,"Bad Dürkheim, Trift",Bad Dürkheim-Trift,timetable,1.0
+de:07332:705,08001860,"Erpolzheim, Bahnhof",Erpolzheim,timetable,1.0
+de:07337:8303_Parent,08003349,"Knöringen-Essingen, Bahnhof",Knöringen-Essingen,timetable,1.0
+de:07337:8302,08001665,"Edesheim, Bahnhof",Edesheim (Pfalz),timetable,1.0
+de:07337:8300_Parent,08003809,"Maikammer-Kirrweiler, Bahnhof",Maikammer-Kirrweiler,timetable,1.0
+de:07316:7905,08004306,"Neustadt, Süd",Neustadt Süd,timetable,1.0
+de:08212:32586,08003186,Karlsruhe-Knielingen,Karlsruhe-Knielingen,timetable,1.0
+de:08212:32587,08003187,Karlsruhe-Mühlburg,Karlsruhe-Mühlburg,timetable,1.0
+de:08212:6017,08003183,Karlsruhe West,Karlsruhe West,timetable,1.0
+de:07334:35129,08000890,"Berg, Bahnhof",Berg (Pfalz),timetable,1.0
+de:07334:32465,08004257,"Neuburg, Bahnhof",Neuburg (Rhein),timetable,1.0
+de:07334:1725,08002515,"Hagenbach, Bahnhof",Hagenbach,timetable,1.0
+de:07334:1724,08003911,"Maximiliansau, Im Rüsten",Maximiliansau Im Rüsten,timetable,1.0
+de:08118:1400_Parent,08000038,Bietigheim,Bietigheim-Bissingen,timetable,1.0
+de:08118:7402_Parent,08000235,Ludwigsburg,Ludwigsburg,timetable,1.0
+de:08212:801_Parent,08003184,Karlsruhe-Durlach,Karlsruhe-Durlach,timetable,1.0
+de:08236:1794_Parent,08006440,Wilferdingen-Singen Bahnhof,Wilferdingen-Singen,timetable,0.99
+de:08231:50_Parent,08000299,Pforzheim Hauptbahnhof,Pforzheim Hbf,timetable,0.995
+de:08236:3090_Parent,08000339,Mühlacker Bahnhof,Mühlacker,timetable,1.0
+de:08118:5879_Parent,08006053,Vaihingen (E),Vaihingen (Enz),timetable,1.0
+de:08136:2007,08001751,"Ellwangen, Bahnhof",Ellwangen,timetable,1.0
+de:08136:3077_Parent,08000329,"GD, Bahnhof",Schwäbisch Gmünd,timetable,1.0
+de:08119:7703_Parent,08005424,Schorndorf,Schorndorf,timetable,1.0
+de:08335:6554_Parent,08003400,Konstanz Bahnhof,Konstanz,timetable,1.0
+de:08237:1050_Parent,08000110,Freudenstadt Hauptbahnhof,Freudenstadt Hbf,timetable,1.0
+de:08237:3801_Parent,08000501,Alpirsbach Bahnhof,Alpirsbach,timetable,1.0
+de:08325:6698,08005347,Schiltach Mitte,Schiltach Mitte,timetable,1.0
+de:08325:6585_Parent,08005350,Schiltach,Schiltach,timetable,1.0
+de:08317:18030,08002533,Halbmeil Bahnhof,Halbmeil,timetable,1.0
+de:08317:18010,08006544,Wolfach,Wolfach,timetable,1.0
+de:08317:18620_Parent,08000333,Hausach,Hausach,timetable,1.0
+de:08317:18520_Parent,08002621,Haslach,Haslach,timetable,1.0
+de:08317:18420_Parent,08005688,Steinach,Steinach (Baden),timetable,1.0
+de:08317:11011_Parent,08000942,Biberach,Biberach (Baden),timetable,1.0
+de:08317:15810,08002235,Gengenbach,Gengenbach,timetable,1.0
+de:08317:14517,08004639,Offenburg Kreisschulzentrum,Offenburg Kreisschulzentrum,timetable,1.0
+de:08317:14506_Parent,08000290,Offenburg Bahnhof,Offenburg,timetable,1.0
+de:08237:9602,08003758,Loßburg-Rodt Bahnhof,Loßburg-Rodt,timetable,1.0
+de:08325:6598_Parent,08005335,Schenkenzell,Schenkenzell,timetable,1.0
+de:08326:6591_Parent,08005902,Triberg Bahnhof,Triberg,timetable,1.0
+de:08326:6597_Parent,08005644,St. Georgen Bahnhof,St. Georgen (Schwarzw),timetable,1.0
+de:08326:6592_Parent,08000366,Villingen Bahnhof/ZOB,Villingen (Schwarzw),timetable,1.0
+de:08317:18820_Parent,08003001,Hornberg (Schwarzw),Hornberg,timetable,1.0
+de:08326:6537_Parent,08000077,Donaueschingen Bahnhof,Donaueschingen,timetable,1.0
+de:08327:1242_Parent,08000182,Immendingen Bahnhof,Immendingen,timetable,1.0
+de:08335:6551_Parent,08001790,Engen,Engen,timetable,1.0
+de:08335:6564_Parent,08006321,Welschingen-Neuhausen Bahnhof,Welschingen-Neuhausen,timetable,1.0
+de:08335:6559,08004107,Mühlhausen (bei Engen) Bahnhof,Mühlhausen (b Engen),timetable,1.0
+de:08335:6588_Parent,08000073,Singen (Htw) Bahnhof,Singen (Hohentwiel),timetable,1.0
+de:08335:2409_Parent,08079616,Singen-Industriegebiet Bahnhof,Singen Industriegebiet,timetable,1.0
+de:08335:6550,08001059,Böhringen-Rickelhausen Bahnhof,Böhringen-Rickelshausen,timetable,1.0
+de:08335:6560_Parent,08000880,Radolfzell Bahnhof,Radolfzell,timetable,1.0
+de:08335:6549_Parent,08000496,Allensbach Bahnhof,Allensbach,timetable,1.0
+de:08335:6561_Parent,08004997,Reichenau (Baden) Bahnhof,Reichenau (Baden),timetable,1.0
+de:08335:6556,08003416,Konstanz-Wollmatingen Bahnhof,Konstanz-Wollmatingen,timetable,1.0
+de:08335:20878_Parent,08003404,Konstanz-Fürstenberg Bahnhof,Konstanz Fürstenberg,timetable,1.0
+de:08335:6555_Parent,08003401,Konstanz-Petershausen Bahnhof,Konstanz-Petershausen,timetable,1.0
+de:08327:1190_Parent,08002214,Geisingen Bahnhof,Geisingen,timetable,1.0
+de:08335:2390_Parent,08005560,Singen-Landesgartenschau Bf,Singen Landesgartenschau,timetable,1.0
+de:08317:14120_Parent,08000596,Appenweier,Appenweier,timetable,1.0
+de:08317:13554,08005037,Renchen,Renchen,timetable,1.0
+de:08317:33013_Parent,08000412,Achern,Achern,timetable,1.0
+de:08216:32227_Parent,08001252,Bühl (Baden),Bühl (Baden),timetable,1.0
+de:08211:1847_Parent,08000774,Baden-Baden,Baden-Baden,timetable,1.0
+de:08216:1844_Parent,08000306,Rastatt,Rastatt,timetable,1.0
+de:08216:1843,08004178,Muggensturm,Muggensturm,timetable,1.0
+de:08215:8306_Parent,08003832,Malsch (Kr Karlsruhe),Malsch,timetable,1.0
+de:08215:1841,08001198,Bruchhausen (b. Ettlingen),Bruchhausen (b Ettlingen),timetable,1.0
+de:08215:1840_Parent,08001926,Ettlingen West,Ettlingen West,timetable,0.924
+de:08335:6553_Parent,08002683,Hegne Bahnhof,Hegne,timetable,1.0
+de:08335:6558_Parent,08003872,Markelfingen Bahnhof,Markelfingen,timetable,1.0
+de:08421:1551,08005954,Ulm-Donautal,Ulm-Donautal,timetable,1.0
+de:08425:3601_Parent,08001820,Erbach Bahnhof,Erbach (Württ),timetable,1.0
+de:08426:6321_Parent,08003592,Laupheim Westbahnhof,Laupheim West,timetable,1.0
+de:08426:6536_Parent,08005334,Schemmerberg Bahnhof,Schemmerberg,timetable,1.0
+de:08426:6650_Parent,08006212,Warthausen Bahnhof,Warthausen,timetable,1.0
+de:08426:6170_Parent,08000943,Biberach ZOB/Bahnhof,Biberach (Riß),timetable,1.0
+de:08426:6785,08000944,Biberach Süd,Biberach Süd,timetable,1.0
+de:08337:6568_Parent,08001865,Erzingen (Baden) Bahnhof,Erzingen (Baden),timetable,1.0
+de:08335:6552_Parent,08002337,Gottmadingen Bahnhof,Gottmadingen,timetable,1.0
+de:08435:4788_Parent,08005942,Bahnhof Überlingen,Überlingen,timetable,1.0
+de:08435:4580_Parent,08004029,"Salem, Bahnhof",Salem,timetable,1.0
+de:08435:44002_Parent,08000112,Friedrichshafen Stadtbahnhof,Friedrichshafen Stadt,timetable,0.99
+de:08335:6722_Parent,08000965,Bietingen Bahnhof,Bietingen,timetable,1.0
+de:08335:6557_Parent,08003764,Ludwigshafen(Bodensee) Bahnhof,Ludwigshafen (Bodensee),timetable,1.0
+de:08435:4594_Parent,08004595,Uhldingen-Mühlhofen Bahnhof,Uhldingen-Mühlhofen,timetable,1.0
+de:08435:14623,08000909,Bermatingen-Ahausen Bahnhof,Bermatingen-Ahausen,timetable,1.0
+de:08435:4646_Parent,08003871,Markdorf Bahnhof,Markdorf (Baden),timetable,1.0
+de:08435:44001_Parent,08002110,Friedrichshafen Hafenbahnhof,Friedrichshafen Hafen,timetable,1.0
+de:08435:4543_Parent,08005937,Überlingen Bahnhof Therme,Überlingen-Therme,timetable,1.0
+de:08426:6043,08000746,Bad Schussenried,Bad Schussenried,timetable,1.0
+de:08436:1000_Parent,08000014,Aulendorf Bahnhof,Aulendorf,timetable,1.0
+de:08436:8000_Parent,08004965,Ravensburg Bahnhof,Ravensburg,timetable,1.0
+de:09776:9006,08001806,Enzisweiler,Enzisweiler,timetable,0.989
+de:09776:1824,08006218,Wasserburg (Bodensee),Wasserburg (Bodensee),timetable,0.978
+de:09776:9018,08004446,Nonnenhorn,Nonnenhorn,timetable,0.986
+de:08435:44160_Parent,08003524,Langenargen Bahnhof,Langenargen,timetable,0.987
+de:08435:44168_Parent,08003432,Kressbronn Bahnhof,Kressbronn,timetable,1.0
+de:08435:32002,08001838,Eriskirch Bahnhof,Eriskirch,timetable,1.0
+de:08435:4203_Parent,08003930,Meckenbeuren Bahnhof,Meckenbeuren,timetable,0.991
+de:08435:32005_Parent,08003733,Löwental Bahnhof,Löwental,timetable,1.0
+de:08425:2901,08005333,Schelklingen,Schelklingen,timetable,1.0
+de:08425:2941,08005379,Schmiechen,Schmiechen,timetable,1.0
+de:08425:3005,08000499,Allmendingen,Allmendingen,timetable,1.0
+de:08425:3140,08001684,Ehingen (Donau),Ehingen (Donau),timetable,1.0
+de:08425:3481_Parent,08004182,Munderkingen Bahnhof,Munderkingen,timetable,1.0
+de:08425:3501,08005195,Rottenacker,Rottenacker,timetable,1.0
+de:08426:6470_Parent,08005087,Riedlingen ZOB/Bahnhof,Riedlingen,timetable,1.0
+de:08437:44001_Parent,08000160,Herbertingen Bahnhof,Herbertingen,timetable,1.0
+de:08437:44003_Parent,08003969,Mengen Bahnhof,Mengen,timetable,1.0
+de:08437:47641,08005568,Sigmaringendorf Bahnhof,Sigmaringendorf,timetable,1.0
+de:08437:42111_Parent,08000069,Sigmaringen Bahnhof,Sigmaringen,timetable,1.0
+de:08437:49508_Parent,08005301,Bad Saulgau Bahnhof,Bad Saulgau,timetable,1.0
+de:08327:1748_Parent,08000163,Tuttlingen Bahnhof,Tuttlingen,timetable,1.0
+de:08325:6584_Parent,08000322,Rottweil Bahnhof,Rottweil,timetable,1.0
+de:08327:1436_Parent,08005097,Rietheim Bahnhof,Rietheim,timetable,1.0
+de:08327:1510_Parent,08005616,Spaichingen Bahnhof,Spaichingen,timetable,1.0
+de:08327:1513,08005617,Spaichingen Mitte,Spaichingen Mitte,timetable,1.0
+de:08327:2006_Parent,08000481,Aldingen Bahnhof,Aldingen,timetable,1.0
+de:08325:20533,08004280,Rottweil Neufra,Rottweil Neufra,timetable,1.0
+de:08317:15058,08003218,Kehl Grenze,Kehl,timetable,1.0
+de:08317:15011_Parent,08003218,Kehl,Kehl,timetable,1.0
+de:08317:15050_Parent,08003408,Kork,Kork,timetable,1.0
+de:08317:12475_Parent,08003609,Legelshurst,Legelshurst,timetable,1.0
+de:08116:7800_Parent,08001920,Esslingen (N),Esslingen (Neckar),timetable,1.0
+de:08116:7802_Parent,08000302,Plochingen,Plochingen,timetable,1.0
+de:08117:154_Parent,08000127,Göppingen,Göppingen,timetable,1.0
+de:08117:161_Parent,08002218,Geislingen (Steige),Geislingen (Steige),timetable,1.0
+de:08425:2460_Parent,08000858,Beimerstetten Bahnhof,Beimerstetten,timetable,1.0
+de:08425:2470_Parent,08006373,Westerstetten Bahnhof,Westerstetten,timetable,1.0
+de:08425:2551_Parent,08000577,Amstetten Bahnhof,Amstetten (Württ),timetable,1.0
+de:08117:159,08003461,Kuchen,Kuchen,timetable,1.0
+de:08117:158,08002278,Gingen (F),Gingen (Fils),timetable,1.0
+de:08117:157_Parent,08005790,Süßen,Süßen,timetable,1.0
+de:08117:152_Parent,08005949,Uhingen,Uhingen,timetable,1.0
+de:08117:151_Parent,08001632,Ebersbach (F),Ebersbach (Fils),timetable,1.0
+de:08116:4224_Parent,08004999,Reichenbach (F),Reichenbach (Fils),timetable,1.0
+de:08425:2510,08003748,Lonsee,Lonsee,timetable,1.0
+de:08425:2540,08006039,Urspring,Urspring,timetable,1.0
+de:08136:1608_Parent,08005997,"Unterkochen, Bahnhof",Unterkochen,timetable,1.0
+de:08136:5113_Parent,08004549,"Oberkochen, Bahnhof",Oberkochen,timetable,1.0
+de:08135:1426,08003378,Königsbronn,Königsbronn,timetable,1.0
+de:08135:1417,08003103,Itzelberg,Itzelberg,timetable,1.0
+de:08135:630,08002691,HDH-Schnaitheim,Heidenheim-Schnaitheim,timetable,1.0
+de:08135:600,08002689,Heidenheim (Brenz),Heidenheim,timetable,1.0
+de:09775:4927,08005845,Thalfingen (b Ulm),Thalfingen (b Ulm),timetable,1.0
+de:08425:2102_Parent,08003525,Langenau Bahnhof,Langenau (Württ),timetable,1.0
+de:08135:1524,08004413,Niederstotzingen,Niederstotzingen,timetable,1.0
+de:08135:1579_Parent,08005608,Sontheim (Brenz) Bahnhof,Sontheim-Brenz,timetable,1.0
+de:08135:1561,08000889,Bergenweiler,Bergenweiler,timetable,1.0
+de:08135:1394,08002776,Hermaringen,Hermaringen,timetable,1.0
+de:08135:1193_Parent,08002272,Giengen (Brenz) Bahnhof,Giengen (Brenz),timetable,1.0
+de:08425:2261,08004930,Rammingen,Rammingen,timetable,1.0
+de:08437:41280_Parent,08005747,Storzingen Bahnhof,Storzingen,timetable,1.0
+de:08417:32110,08000473,Ebingen Bahnhof,Albstadt-Ebingen,timetable,1.0
+de:08417:32109_Parent,08000353,Balingen Bahnhof/Busbf,Balingen (Württ),timetable,1.0
+de:08417:32107_Parent,08002673,Hechingen Bf/ZOB,Hechingen,timetable,1.0
+de:08416:1006_Parent,08004070,Mössingen Bahnhof,Mössingen,timetable,1.0
+de:08416:11000_Parent,08000141,Tübingen Hauptbahnhof,Tübingen Hbf,timetable,1.0
+de:08417:32117,08005750,Straßberg Bahnhof,Straßberg-Winterlingen,timetable,1.0
+de:08417:30104_Parent,08000999,Bisingen Bahnhof,Bisingen,timetable,1.0
+de:08237:5001_Parent,08000177,Horb Bahnhof/ZOB,Horb,timetable,1.0
+de:08237:5212,08004104,Mühlen Bahnhof,Mühlen (b Horb),timetable,1.0
+de:08237:8031_Parent,08001946,Eyach Bahnhof,Eyach,timetable,1.0
+de:08416:2506,08000959,Bieringen (Neckar) Bahnhof,Bieringen,timetable,1.0
+de:08416:2505,08000731,Bad Niedernau Bahnhof,Bad Niedernau,timetable,1.0
+de:08416:1005_Parent,08005197,Rottenburg Bahnhof,Rottenburg (Neckar),timetable,1.0
+de:08416:2503,08003248,Kiebingen Bhf,Kiebingen,timetable,1.0
+de:08111:6002_Parent,08005776,Vaihingen,Stuttgart-Vaihingen,timetable,1.0
+de:08115:7100_Parent,08001055,Böblingen,Böblingen,timetable,0.986
+de:08317:12103_Parent,08003494,Lahr (Schwarzw),Lahr (Schwarzw),timetable,1.0
+de:08317:18601_Parent,08004683,Orschweier,Orschweier,timetable,1.0
+de:08317:16700_Parent,08005101,Ringsheim/Europa-Park,Ringsheim/Europa-Park,timetable,1.0
+de:08316:6562_Parent,08002763,Herbolzheim (Brsg) Bahnhof,Herbolzheim (Breisgau),timetable,1.0
+de:08316:6518,08003233,Kenzingen Bahnhof,Kenzingen,timetable,1.0
+de:08316:5290_Parent,08005090,Riegel-Malterdingen,Riegel-Malterdingen,timetable,1.0
+de:08316:90_Parent,08001771,Emmendingen Bahnhof,Emmendingen,timetable,0.988
+de:08315:6677_Parent,08005317,Schallstadt Bahnhof,Schallstadt,timetable,1.0
+de:08315:6665_Parent,08002727,Heitersheim Bahnhof,Heitersheim,timetable,1.0
+de:08315:6522_Parent,08004124,Müllheim im Markgräflerland Bf,Müllheim im Markgräflerland,timetable,1.0
+de:08336:6678,08005364,Schliengen Bahnhof,Schliengen,timetable,1.0
+de:08336:6628,08000864,Bad Bellingen Bahnhof,Bad Bellingen,timetable,1.0
+de:08336:6631_Parent,08001671,Efringen-Kirchen Bahnhof,Efringen-Kirchen,timetable,1.0
+de:08336:6638,08002546,Haltingen Bahnhof,Haltingen,timetable,1.0
+de:08336:6639_Parent,08006272,Weil am Rhein Bahnhof,Weil am Rhein,timetable,1.0
+de:08317:16220,08002123,Friesenheim (Baden),Friesenheim (Baden),timetable,1.0
+de:08316:6668,08003374,Köndringen Bahnhof,Köndringen,timetable,1.0
+de:08316:729,08005836,Teningen-Mundingen Bahnhof,Teningen-Mundingen,timetable,1.0
+de:08316:6667_Parent,08003398,Kollmarsreute Bahnhof,Kollmarsreute,timetable,1.0
+de:08315:6644,08001262,Buggingen Bahnhof,Buggingen,timetable,1.0
+de:08315:6642,08000657,Auggen Bahnhof,Auggen,timetable,1.0
+de:08336:6634_Parent,08001715,Eimeldingen Bahnhof,Eimeldingen,timetable,1.0
+de:08311:6589,08002069,"Freiburg, St. Georgen Bahnhof",Freiburg-St Georgen,timetable,1.0
+de:08315:6661,08001643,Ebringen (Frbg) Bahnhof,Ebringen,timetable,1.0
+de:08315:6670,08004464,Norsingen Bahnhof,Norsingen,timetable,1.0
+de:08336:6629,08005068,Rheinweiler Bahnhof,Rheinweiler,timetable,1.0
+de:08336:6633,08003325,Kleinkems Bahnhof,Kleinkems,timetable,1.0
+de:08336:6632,08003098,Istein Bahnhof,Istein,timetable,1.0
+de:08216:1820_Parent,08000963,Bietigheim (Baden),Bietigheim (Baden),timetable,1.0
+de:08216:1821_Parent,08004636,Ötigheim,Ötigheim,timetable,1.0
+de:08125:620_Parent,08004220,Neckarsulm,Neckarsulm,timetable,1.0
+de:08121:26_Parent,08000157,Heilbronn Hauptbahnhof,Heilbronn Hbf,timetable,1.0
+de:08125:8155,08004458,Nordheim (Württ),Nordheim (Württ),timetable,1.0
+de:08125:1438_Parent,08003588,Lauffen (N),Lauffen (Neckar),timetable,1.0
+de:08118:5723_Parent,08003278,Kirchheim (N),Kirchheim (Neckar),timetable,1.0
+de:08118:5785_Parent,08006171,Walheim,Walheim (Württ),timetable,1.0
+de:08118:5583_Parent,08000925,Besigheim,Besigheim,timetable,1.0
+de:08128:13805_Parent,08000221,"Lauda, Bahnhof",Lauda,timetable,1.0
+de:09663:177_Parent,08000260,Würzburg Hbf,Würzburg Hbf,timetable,1.0
+de:08121:75_Parent,08002699,Heilbronn Sülmertor,Heilbronn Sülmertor,timetable,1.0
+de:08128:13824,08002243,"Gerlachsheim, Bahnhof",Gerlachsheim,timetable,1.0
+de:08128:12503,08002447,"Grünsfeld, Bahnhof",Grünsfeld,timetable,1.0
+de:08128:12541,08006662,"Zimmern, Bahnhof",Zimmern (Main-Tauber),timetable,1.0
+de:08128:13702,08006517,"Wittighausen, Bahnhof",Wittighausen,timetable,1.0
+de:09679:99001,08002195,Gaubüttelbrunn,Gaubüttelbrunn,timetable,1.0
+de:09679:5010,08003284,Kirchheim (Unterfr),Kirchheim (Unterfr),timetable,1.0
+de:09679:5005,08002251,Geroldshausen Bahnhof,Geroldshausen,timetable,1.0
+de:09679:99005,08005002,Reichenberg (Unterfr),Reichenberg,timetable,1.0
+de:09663:54,08006582,Würzburg Süd,Würzburg Süd,timetable,1.0
+de:08125:519_Parent,08000017,Bad Friedrichshall Hbf,Bad Friedrichshall Hbf,timetable,1.0
+de:08125:2002_Parent,08000765,Bad Wimpfen,Bad Wimpfen,timetable,1.0
+de:08125:4615_Parent,08000736,Bad Rappenau,Bad Rappenau,timetable,1.0
+de:08226:3561_Parent,08005714,"Steinsfurt, Bahnhof",Steinsfurt,timetable,1.0
+de:08226:3550_Parent,08005578,"Sinsheim, Hauptbahnhof",Sinsheim (Elsenz) Hbf,timetable,1.0
+de:08226:2835_Parent,08003932,"Meckesheim, Bahnhof",Meckesheim,timetable,1.0
+de:08226:2986_Parent,08000265,"Neckargemünd, Bahnhof",Neckargemünd,timetable,1.0
+de:08125:4595,08000706,"Bad Wimpfen, Im Tal",Bad Wimpfen im Tal,timetable,1.0
+de:08125:5606,08000766,Bad Wimpfen-Hohenstadt,Bad Wimpfen-Hohenstadt,timetable,1.0
+de:08125:1630,08000777,Bad Rappenau Kurpark,Bad Rappenau Kurpark,timetable,1.0
+de:08125:6232,08000681,Babstadt,Babstadt,timetable,1.0
+de:08125:9200,08002380,Grombach,Grombach,timetable,1.0
+de:08226:3558_Parent,08070097,"Sinsheim, Museum/Arena",Sinsheim Museum/Arena,timetable,1.0
+de:08317:18733,08002480,Gutach Freilichtmuseum,Gutach Freilichtmuseum,timetable,1.0
+de:08118:1402_Parent,08003411,Kornwestheim,Kornwestheim Pbf,timetable,1.0
+de:08116:2931_Parent,08004488,Nürtingen,Nürtingen,timetable,1.0
+de:08116:5772,08000865,Bempflingen,Bempflingen,timetable,1.0
+de:08415:22008_Parent,08004009,Metzingen Bahnhof,Metzingen (Württ),timetable,1.0
+de:08415:22006_Parent,08000314,Reutlingen Hauptbahnhof,Reutlingen Hbf,timetable,1.0
+de:08111:6085_Parent,08005775,Untertürkheim,Stuttgart-Untertürkheim Pbf,timetable,1.0
+de:08136:2416_Parent,08005431,"Schrezheim, Bahnhof",Schrezheim,timetable,1.0
+de:08136:5210,08005445,"Rainau-Schwabsberg, Bahnhof",Schwabsberg,timetable,1.0
+de:08136:7101_Parent,08004053,"Mögglingen, Bahnhof",Mögglingen (b Gmünd),timetable,1.0
+de:08136:6100_Parent,08005979,"Böbingen, Bahnhof",Böbingen (Rems),timetable,1.0
+de:08136:7005_Parent,08003752,"Lorch, Bahnhof",Lorch (Württ),timetable,1.0
+de:08136:7031_Parent,08006157,"Lorch-Waldhausen, Bahnhof",Waldhausen (b Schorndorf),timetable,1.0
+de:08119:5761,08004842,Plüderhausen,Plüderhausen,timetable,1.0
+de:08119:5789,08006030,Urbach,Urbach (b Schorndorf),timetable,1.0
+de:08136:4609_Parent,08003111,"Jagstzell, Bahnhof",Jagstzell,timetable,1.0
+de:08237:7965_Parent,08000101,Eutingen im Gäu Bahnhof,Eutingen im Gäu,timetable,1.0
+de:08416:2052_Parent,08001833,Ergenzingen Bahnhof,Ergenzingen,timetable,1.0
+de:08115:4510_Parent,08001080,Bondorf,Bondorf (b Herrenberg),timetable,1.0
+de:08115:5776_Parent,08002166,Gäufelden,Gäufelden,timetable,1.0
+de:08115:4512_Parent,08002785,Herrenberg,Herrenberg,timetable,1.0
+de:08325:6596,08004563,Oberndorf (Neckar) Bahnhof,Oberndorf (Neckar),timetable,1.0
+de:08325:6590,08005791,Sulz (Neckar) Bahnhof,Sulz (Neckar),timetable,1.0
+de:08115:5774,08002165,Gärtringen,Gärtringen,timetable,1.0
+de:08237:8006,08001944,Eutingen im Gäu Nord,Eutingen Nord,timetable,1.0
+de:08235:9070,08000389,"Hochdorf, Bahnhof",Hochdorf (b Horb),timetable,1.0
+de:08237:5022,08002998,Horb Heiligenfeld,Horb-Heiligenfeld,timetable,1.0
+de:08237:4322,08001002,Bittelbronn Bahnhof,Bittelbronn,timetable,1.0
+de:08237:9604_Parent,08005421,Schopfloch Bahnhof,Schopfloch (b Freudenstadt),timetable,1.0
+de:08237:4001,08001512,Dornstetten Bahnhof,Dornstetten,timetable,1.0
+de:08237:8009,08001510,Dornstetten Aach,Dornstetten-Aach,timetable,1.0
+de:08237:1913,08002445,Grüntal-Wittlensweiler,Grüntal/Wittlensweiler,timetable,1.0
+de:08117:160,08002217,Geislingen West,Geislingen West,timetable,1.0
+de:08117:153_Parent,08001965,Faurndau,Faurndau,timetable,1.0
+de:08117:155,08001731,Eislingen (F),Eislingen (Fils),timetable,1.0
+de:08117:156,08005258,Salach,Salach,timetable,1.0
+de:08231:2891,08001942,Eutingen,Eutingen (Baden),timetable,1.0
+de:08236:2890_Parent,08004425,Niefern Bahnhof,Niefern,timetable,1.0
+de:08236:2791_Parent,08001803,Enzberg Bahnhof,Enzberg,timetable,1.0
+de:08236:2690_Parent,08004103,Mühlacker Rösslesweg,Mühlacker Rößlesweg,timetable,1.0
+de:08236:2590_Parent,08003060,Illingen Bahnhof,Illingen (Württ),timetable,1.0
+de:08118:5782,08005540,Sersheim,Sersheim,timetable,1.0
+de:08118:5639_Parent,08005253,Sachsenheim,Sachsenheim,timetable,0.989
+de:08118:1910_Parent,08001746,Ellental,Ellental,timetable,0.99
+de:08236:2790,08004637,Ötisheim Bahnhof,Ötisheim,timetable,1.0
+de:08236:2292_Parent,08087080,Maulbronn West,Maulbronn West,timetable,1.0
+de:08236:2290,08004632,Ölbronn-Dürrn,Ölbronn-Dürrn,timetable,1.0
+de:08236:2390_Parent,08003332,Knittlingen-Kleinvillars,Knittlingen-Kleinvillars,timetable,1.0
+de:08215:35081_Parent,08001131,Bretten-Ruit,Bretten-Ruit,timetable,1.0
+de:08215:35082_Parent,08001138,Bretten Rechberg,Bretten-Rechberg,timetable,1.0
+de:08215:1551_Parent,08000053,Bretten (Baden),Bretten,timetable,1.0
+de:08215:1856_Parent,08000055,Bruchsal,Bruchsal,timetable,1.0
+de:08126:19602,08004620,Öhringen-Cappel,Öhringen Cappel,timetable,1.0
+de:08126:10220_Parent,08004623,Öhringen Hbf,Öhringen Hbf,timetable,1.0
+de:08126:10101_Parent,08001178,Bretzfeld,Bretzfeld,timetable,1.0
+de:08125:2017_Parent,08006456,Willsbach,Willsbach,timetable,1.0
+de:08125:4344_Parent,08006289,Weinsberg,Weinsberg,timetable,1.0
+de:08119:5787,08002026,Fornsbach,Fornsbach,timetable,1.0
+de:08116:4257_Parent,08006331,Wendlingen (N),Wendlingen (Neckar),timetable,1.0
+de:08425:2626_Parent,08003983,Merklingen Bahnhof,Merklingen - Schwäbische Alb,timetable,1.0
+de:08426:6350_Parent,08003591,Laupheim ZOB/Stadtbahnhof,Laupheim Stadt,timetable,1.0
+de:08315:6740,08089119,Neuenburg (Baden) Bahnhof,Neuenburg (Baden),timetable,1.0
+de:08336:6604,08002365,Grenzach Bahnhof,Grenzach,timetable,1.0
+de:08336:6605,08006629,Wyhlen Bahnhof,Wyhlen,timetable,1.0
+de:08336:6606,08002797,Herten (Baden) Bahnhof,Herten (Baden),timetable,1.0
+de:08336:6578,08005064,Rheinfelden (Baden) Bahnhof,Rheinfelden (Baden),timetable,1.0
+de:08435:4547,08005582,Sipplingen Bahnhof,Sipplingen,timetable,1.0
+de:08435:4535,08005943,"Nußdorf, Bahnhof",Überlingen-Nußdorf,timetable,1.0
+de:08435:14129,08003345,FN-Kluftern Bahnhof,Friedrichshafen-Kluftern,timetable,1.0
+de:08435:14039,08002111,"FN Fischbach, Bahnhof",Friedrichshafen-Fischbach,timetable,1.0
+de:08435:4505_Parent,08003850,"FN Manzell, Bahnhof",Friedrichshafen Manzell,timetable,1.0
+de:08435:4503,08002122,Friedrichshafen Landratsamt,Friedrichshafen Landratsamt,timetable,1.0
+de:08215:8301,08003833,Malsch Süd,Malsch Süd,timetable,1.0
+de:08216:1850,08004192,Muggensturm Badesee,Muggensturm-Badesee,timetable,1.0
+de:08327:1696_Parent,08005911,Trossingen Bahnhof,Trossingen Bahnhof,timetable,1.0
+de:08325:1594,08001405,Deißlingen Mitte,Deißlingen Mitte,timetable,1.0
+de:08326:6768,08000393,Schwenningen Hammerstatt,Villingen-Schwenningen Hammerstatt,timetable,0.894
+de:08326:6586_Parent,08005490,Schwenningen Bahnhof,Schwenningen (Neckar),timetable,0.979
+de:08326:8324_Parent,08000356,Schwenningen Eisstadion,Villingen-Schwenningen Eisstadion,timetable,1.0
+de:08326:6627,08006667,VS-Zollhaus,Zollhaus (Villingen-Schwenningen),timetable,1.0
+de:08326:6752,08003857,Marbach Ost,Marbach Ost Villingen-Schwenningen,timetable,1.0
+de:08326:6744,08003854,Marbach West,Marbach West (Villingen-Schwenningen),timetable,1.0
+de:08326:6745,08003339,Brigachtal Kirchdorf,Brigachtal Kirchdorf,timetable,1.0
+de:08326:6666,08003336,Brigachtal Klengen,Brigachtal Klengen,timetable,1.0
+de:08326:6776,08001483,Donaueschingen Grüningen,Donaueschingen Grüningen,timetable,0.936
+de:08326:6755_Parent,08001482,Donaueschingen Aufen,Donaueschingen Aufen,timetable,1.0
+de:08326:6625,08001485,Donaueschingen Mitte/Siedlung,Donaueschingen Mitte/Siedlung,timetable,1.0
+de:08326:6754,08001479,Donaueschingen Allmendshofen,Donaueschingen Allmendshofen,timetable,1.0
+de:08326:6701_Parent,08003014,Hüfingen Mitte,Hüfingen Mitte,timetable,1.0
+de:08325:20524,08005202,Rottweil Saline Bahnhof,Rottweil Saline,timetable,0.976
+de:08327:1908,08003066,Immendingen Zimmern,Immendingen Zimmern,timetable,1.0
+de:08327:1247,08003061,Immendingen Mitte,Immendingen Mitte,timetable,1.0
+de:08327:1331_Parent,08004067,Möhringen Rathaus,Möhringen Rathaus,timetable,1.0
+de:08327:1332,08004068,Möhringen Bahnhof,Möhringen Bahnhof,timetable,1.0
+de:08327:1761,08005946,Tuttlingen Gänsäcker,Tuttlingen Gänsäcker,timetable,1.0
+de:08327:1795,08005925,Tuttlingen Schulen,Tuttlingen Schulen,timetable,1.0
+de:08327:1896,08006625,Wurmlingen Mitte,Wurmlingen Mitte,timetable,1.0
+de:08327:2017,08006626,Wurmlingen Nord,Wurmlingen Nord,timetable,1.0
+de:08327:1869,08006281,Weilheim Bahnhof,Weilheim,timetable,1.0
+de:08327:3000,08000787,Balgheim Bahnhof,Balgheim,timetable,1.0
+de:08325:20523,08005200,Rottweil Göllsdorf Bahnhof,Rottweil Göllsdorf,timetable,1.0
+de:08327:1763,08079056,Tuttlingen Zentrum,Tuttlingen Zentrum,timetable,1.0
+de:08327:1773,08000456,Tuttlingen Nord,Tuttlingen Nord,timetable,1.0
+de:08327:1371,08004235,Nendingen Bahnhof,Nendingen (b Tuttlingen),timetable,1.0
+de:08327:1554,08005723,Stetten (Donau) Bahnhof,Stetten (Donau),timetable,1.0
+de:08327:1353,08004111,Mühlheim (Donau) Bahnhof,Mühlheim (b Tuttlingen),timetable,1.0
+de:08327:1172,08002096,Fridingen Bahnhof,Fridingen (b Tuttlingen),timetable,1.0
+de:08437:44005,08002656,Hausen i.T. Bahnhof,Hausen i Tal,timetable,1.0
+de:08437:44000,08000933,Beuron Bahnhof,Beuron,timetable,1.0
+de:08211:35110,08000771,Baden-Baden Haueneberstein,Baden-Baden Haueneberstein,timetable,1.0
+de:08216:35111,08005588,Sinzheim (b. Bühl) Nord,Sinzheim Nord,timetable,1.0
+de:08216:35112_Parent,08005587,Sinzheim (b. Bühl),Sinzheim,timetable,1.0
+de:08211:35113_Parent,08000775,Baden-Baden Rebland,Baden-Baden Rebland,timetable,1.0
+de:09775:4903_Parent,08005983,Unterelchingen Bahnhof,Unterelchingen,timetable,1.0
+de:09775:4911,08004525,Oberelchingen,Oberelchingen,timetable,1.0
+de:08421:1056,08005952,Ulm Ost,Ulm Ost,timetable,1.0
+de:08436:1145_Parent,08000763,Bad Waldsee Bahnhof,Bad Waldsee,timetable,1.0
+de:08436:32000,08000562,Alttann Bahnhof,Alttann,timetable,1.0
+de:08436:32006,08006545,Wolfegg Bahnhof,Wolfegg,timetable,1.0
+de:08416:12001,08005918,Tübingen Lustnau Bahnhof,Tübingen-Lustnau,timetable,1.0
+de:08416:2002_Parent,08003272,K'furt Bahnhof,Kirchentellinsfurt,timetable,1.0
+de:08415:22003_Parent,08006203,Wannweil Bahnhof,Wannweil,timetable,1.0
+de:08415:22004_Parent,08005053,Betzingen Bahnhof,Reutlingen-Betzingen,timetable,1.0
+de:08415:22005_Parent,08005052,Reutlingen Westbahnhof,Reutlingen West,timetable,1.0
+de:08416:2106_Parent,08001047,Bodelshausen Bahnhof,Bodelshausen,timetable,1.0
+de:08416:4456_Parent,08000750,Belsen Bahnhof,Bad Sebastiansweiler-Belsen,timetable,1.0
+de:08416:2103_Parent,08004229,Nehren Bahnhof,Nehren,timetable,1.0
+de:08416:2102_Parent,08001617,Dußlingen Bahnhof,Dußlingen,timetable,1.0
+de:08416:12101,08005917,Tübingen Derendingen Bhf,Tübingen-Derendingen,timetable,1.0
+de:08417:30752,08001794,Engstlatt Bahnhof,Engstlatt,timetable,1.0
+de:08417:32113,08000788,Balingen Süd,Balingen Süd,timetable,1.0
+de:08417:32200,08002133,Frommern Bahnhof,Frommern,timetable,1.0
+de:08417:32115,08000474,Laufen Bahnhof,Albstadt-Laufen Ort,timetable,1.0
+de:08417:32116,08000475,Albstadt-Lautlingen,Albstadt-Lautlingen,timetable,1.0
+de:08417:47604_Parent,08079089,Ebingen West,Albstadt-Ebingen West,timetable,1.0
+de:08215:1863_Parent,08004032,Bad Schönborn-Kronau,Bad Schönborn Kronau,timetable,1.0
+de:08226:3806_Parent,08005181,"Rot-Malsch, Bahnhof",Rot-Malsch,timetable,1.0
+de:08235:697,08004202,"Nagold-Iselshausen, Bf",Nagold-Iselshausen,timetable,1.0
+de:08235:10426,08004195,"Nagold-Steinberg, Bf",Nagold-Steinberg,timetable,1.0
+de:08235:10446,08004201,"Nagold Stadtmitte, Bf",Nagold Stadtmitte,timetable,1.0
+de:08235:10168,08004196,"Nagold, Bahnhof",Nagold,timetable,1.0
+de:08235:9050_Parent,08006432,"Wildberg, Bahnhof",Wildberg (Württ),timetable,1.0
+de:08235:7190_Parent,08000757,Bad Teinach-Neubulach Bahnhof,Bad Teinach-Neubulach,timetable,1.0
+de:08235:9030_Parent,08000063,"Calw, Bahnhof/ZOB",Calw,timetable,1.0
+de:08235:9020,08002852,"Hirsau, Bahnhof",Hirsau,timetable,1.0
+de:08235:4150_Parent,08000721,"Bad Liebenzell, Bahnhof",Bad Liebenzell,timetable,1.0
+de:08236:5691,08004077,Monbach-Neuhausen,Monbach-Neuhausen,timetable,1.0
+de:08235:9000,08006008,"Unterreichenbach, Bahnhof",Unterreichenbach,timetable,1.0
+de:08231:332,08004801,Weißenstein,Pforzheim-Weißenstein,timetable,1.0
+de:08115:1303_Parent,08006271,Weil der Stadt,Weil der Stadt,timetable,1.0
+de:08115:7302_Parent,08000313,Renningen,Renningen,timetable,1.0
+de:08127:21002_Parent,08001651,Eckartshausen Bahnhof,Eckartshausen-Ilshofen,timetable,1.0
+de:08127:20015_Parent,08000330,Hessental Bahnhof,Schwäbisch Hall-Hessental,timetable,1.0
+de:08127:20013,08005449,Schwäbisch Hall Bahnhof,Schwäbisch Hall,timetable,1.0
+de:08127:20732,08006135,Wackershofen Bahnhof (Freilandmuseum),Wackershofen-Freilandmuseum,timetable,1.0
+de:08126:11951_Parent,08006154,Waldenburg(Württ),Waldenburg (Württ),timetable,1.0
+de:08126:10902,08004276,Neuenstein,Neuenstein,timetable,1.0
+de:08225:8203_Parent,08000042,"Seckach, Bahnhof",Seckach,timetable,1.0
+de:08128:12276_Parent,08001111,"Boxberg-Wölchingen, Bahnhof",Boxberg-Wölchingen,timetable,1.0
+de:08128:13761_Parent,08001933,"Eubigheim, Bahnhof",Eubigheim,timetable,1.0
+de:08225:6109,08005168,"Rosenberg, Bahnhof",Rosenberg (Baden),timetable,1.0
+de:08225:8200_Parent,08000295,"Osterburken, Bahnhof",Osterburken,timetable,1.0
+de:08128:13927,08003381,"Königshofen, Bahnhof",Königshofen (Baden),timetable,1.0
+de:08436:9001_Parent,08004049,Mochenwangen Bahnhof,Mochenwangen,timetable,1.0
+de:08436:8317_Parent,08004363,Niederbiegen Bahnhof,Niederbiegen,timetable,1.0
+de:08436:8159_Parent,08087067,Weingarten/Berg Bahnhof,Weingarten Berg,timetable,1.0
+de:08436:8121_Parent,08006296,"Ravensburg Weißenau, Bahnhof",Weißenau,timetable,1.0
+de:08436:8122_Parent,08004605,Oberzell Bahnhof,Oberzell,timetable,1.0
+de:08435:32007_Parent,08003220,Kehlen Bahnhof,Kehlen,timetable,1.0
+de:08435:4151_Parent,08002120,"Friedrichshafen, Bodensee-Airport",Friedrichshafen Flughafen,timetable,1.0
+de:08435:32003,08002030,Friedrichshafen Ost,Friedrichshafen Ost,timetable,1.0
+de:09571:13260,08004797,Petersaurach Nord,Petersaurach Nord,timetable,1.0
+de:09573:5140,08004926,Raitersaich,Raitersaich,timetable,1.0
+de:09573:5160,08005178,Roßtal-Wegbrücke,Roßtal-Wegbrücke,timetable,1.0
+de:09573:5550,08000588,Anwanden,Anwanden,timetable,1.0
+de:09573:5611,08004504,Oberasbach,Oberasbach,timetable,1.0
+de:09573:5610,08005976,Unterasbach,Unterasbach,timetable,1.0
+de:08315:6517,08003052,Ihringen Bahnhof,Ihringen,timetable,1.0
+de:08315:6534,08006215,Wasenweiler Bahnhof,Wasenweiler,timetable,1.0
+de:08315:6513_Parent,08002334,Gottenheim Bahnhof,Gottenheim,timetable,1.0
+de:08315:6521_Parent,08003025,Hugstetten Bahnhof,Hugstetten,timetable,1.0
+de:08311:6511,08002066,Freiburg Landwasser,Freiburg-Landwasser,timetable,1.0
+de:08311:6707,08000453,Freiburg Messe/Universität,Freiburg Messe/Universität,timetable,1.0
+de:08311:6509,08002077,Freiburg Klinikum Bahnhof,Freiburg-Klinikum,timetable,1.0
+de:08311:6541,08002070,Freiburg Wiehre Bahnhof,Freiburg-Wiehre,timetable,1.0
+de:08311:6540,08002068,Freiburg Littenweiler Bahnhof,Freiburg-Littenweiler,timetable,1.0
+de:08315:6519_Parent,08003293,Kirchzarten Bahnhof,Kirchzarten,timetable,1.0
+de:08315:6548_Parent,08005876,Titisee Bahnhof,Titisee,timetable,1.0
+de:08315:6539,08001971,Feldberg-Bärental Bahnhof,Feldberg-Bärental,timetable,1.0
+de:08315:6536,08000544,Altglashütten Falkau Bahnhof,Altglashütten-Falkau,timetable,1.0
+de:08315:6535,08000436,Aha (Schluchsee) Bahnhof,Aha,timetable,1.0
+de:08315:6546,08005371,Schluchsee Bahnhof,Schluchsee,timetable,1.0
+de:08315:6547,08005502,Seebrugg Bahnhof,Seebrugg,timetable,1.0
+de:08315:6542_Parent,08002848,Hinterzarten Bahnhof,Hinterzarten,timetable,1.0
+de:08315:6516_Parent,08002844,Himmelreich Bahnhof,Himmelreich,timetable,1.0
+de:08326:6538_Parent,08001480,Döggingen Bahnhof,Döggingen,timetable,1.0
+de:08315:6681,08005963,Unadingen Bahnhof,Unadingen,timetable,1.0
+de:08315:6659,08000686,Bachheim Bahnhof,Bachheim,timetable,1.0
+de:08315:6543_Parent,08003724,Löffingen Bahnhof,Löffingen,timetable,1.0
+de:08315:6545,08005136,Rötenbach (Friedenw) Bahnhof,Rötenbach (Baden),timetable,1.0
+de:08315:6544_Parent,08004331,Neustadt (Schwarzw) Bahnhof,Neustadt (Schwarzw),timetable,1.0
+de:08336:6601,08005420,Schopfheim Bahnhof,Schopfheim,timetable,1.0
+de:08336:6603_Parent,08005701,Steinen Bahnhof,Steinen,timetable,1.0
+de:08336:6630,08001191,Lörrach-Brombach/Hauingen,Lörrach-Brombach/Hauingen,timetable,1.0
+de:08336:6636,08002489,Lörrach Haagen/Messe Bahnhof,Lörrach-Haagen/Messe,timetable,1.0
+de:08336:6650,08003743,Lörrach Schwarzwaldstraße,Lörrach Schwarzwaldstraße,timetable,1.0
+de:08336:6600_Parent,08003729,Lörrach Hauptbahnhof,Lörrach Hbf,timetable,1.0
+de:08336:3603,08003737,Lörrach Museum/Burghof,Lörrach Museum/Burghof,timetable,1.0
+de:08336:6635_Parent,08003730,Lörrach-Stetten Bahnhof,Lörrach-Stetten,timetable,1.0
+de:08336:3593,08003736,Lörrach Dammstraße,Lörrach Dammstraße,timetable,1.0
+de:08336:6684,08006273,Weil am Rhein Ost Bahnhof,Weil am Rhein Ost,timetable,1.0
+de:08336:6706,08000146,Weil am Rhein Pfädlistraße,Weil am Rhein Pfädlistraße,timetable,1.0
+de:08336:6700,08000143,Weil am Rhein Gartenstadt,Weil am Rhein Gartenstadt,timetable,1.0
+de:08336:6599,08006641,Zell i.W. Bahnhof,Zell (Wiesental),timetable,1.0
+de:08336:6637,08002666,Hausen-Raitbach Bahnhof,Hausen-Raitbach,timetable,1.0
+de:08336:6663,08001954,Fahrnau Bahnhof,Fahrnau,timetable,1.0
+de:08336:5426,08005426,Schopfheim Schlattholz,Schopfheim-Schlattholz,timetable,1.0
+de:08336:6551,08005425,Schopfheim West,Schopfheim West,timetable,1.0
+de:08336:6602,08003920,Maulburg Bahnhof,Maulburg,timetable,1.0
+de:08337:6575,08006167,Waldshut Bahnhof,Waldshut,timetable,1.0
+de:08335:6695,08077771,Radolfzell Haselbrunn Bahnhof,Radolfzell-Haselbrunn,timetable,1.0
+de:08335:6694,08077773,Stahringen Bahnhof,Stahringen,timetable,1.0
+de:08111:6080_Parent,08006743,Neckarpark,Stuttgart Neckarpark,timetable,1.0
+de:08111:6091_Parent,08005772,Obertürkheim,Stuttgart-Obertürkheim,timetable,1.0
+de:08116:1801_Parent,08001921,Mettingen,Esslingen-Mettingen,timetable,1.0
+de:08116:1802_Parent,08004528,Oberesslingen,Oberesslingen,timetable,1.0
+de:08116:1803_Parent,08006642,Zell,Esslingen-Zell,timetable,1.0
+de:08116:1800,08000508,Altbach,Altbach,timetable,1.0
+de:08116:4241,08006346,Wernau (N),Wernau (Neckar),timetable,1.0
+de:08116:4345,08003282,Ötlingen,Kirchheim (Teck)-Ötlingen,timetable,1.0
+de:08116:4211_Parent,08003280,Kirchheim (T),Kirchheim (Teck),timetable,1.0
+de:08115:7115_Parent,08003022,Hulb,Hulb,timetable,1.0
+de:08115:5773_Parent,08001689,Ehningen,Ehningen (b Böblingen),timetable,1.0
+de:08115:5775,08004490,Nufringen,Nufringen,timetable,1.0
+de:08111:6001_Parent,08005773,Rohr,Stuttgart-Rohr,timetable,1.0
+de:08115:3212_Parent,08005201,Goldberg,Goldberg,timetable,1.0
+de:08116:2105_Parent,08004496,Oberaichen,Oberaichen,timetable,1.0
+de:08116:175_Parent,08003622,Leinfelden,Leinfelden,timetable,1.0
+de:08116:7003_Parent,08001650,Echterdingen,Echterdingen,timetable,1.0
+de:08116:2103_Parent,08005768,Flughafen/Messe,Stuttgart Flughafen/Messe,timetable,1.0
+de:08116:1905,08001984,Filderstadt,Filderstadt,timetable,1.0
+de:08119:6500_Parent,08001974,Fellbach,Fellbach,timetable,1.0
+de:08119:7701_Parent,08005157,Rommelshausen,Rommelshausen,timetable,1.0
+de:08119:1701,08005726,Stetten-Beinstein,Stetten-Beinstein,timetable,1.0
+de:08119:7704_Parent,08001785,Endersbach,Endersbach,timetable,1.0
+de:08119:3711,08000934,Beutelsbach,Beutelsbach,timetable,1.0
+de:08119:1703_Parent,08002448,Grunbach,Grunbach,timetable,0.989
+de:08119:1702,08002240,Geradstetten,Geradstetten,timetable,0.989
+de:08119:1705,08006485,Winterbach,Winterbach (b Schorndorf),timetable,1.0
+de:08119:1704,08006277,Weiler (R),Weiler (Rems),timetable,1.0
+de:08111:34_Parent,08004357,Nürnberger Straße,Stuttgart Nürnberger Straße,timetable,1.0
+de:08111:1300_Parent,08005774,Sommerrain,Stuttgart-Sommerrain,timetable,1.0
+de:08119:1602_Parent,08004333,Neustadt-Hohenacker,Neustadt-Hohenacker,timetable,1.0
+de:08119:1603_Parent,08005454,Schwaikheim,Schwaikheim,timetable,1.0
+de:08119:1601,08004233,Nellmersbach,Nellmersbach,timetable,1.0
+de:08119:7601,08003913,Maubach,Maubach,timetable,1.0
+de:08111:6295_Parent,08005767,Nordbahnhof,Stuttgart Nordbahnhof,timetable,1.0
+de:08111:6157_Parent,08005770,Feuerbach,Stuttgart-Feuerbach,timetable,1.0
+de:08111:6465_Parent,08005778,Zuffenhausen,Stuttgart-Zuffenhausen,timetable,1.0
+de:08118:7403,08001967,Favoritepark,Favoritepark,timetable,1.0
+de:08118:1503_Parent,08002065,Freiberg (N),Freiberg (Neckar),timetable,1.0
+de:08118:1500_Parent,08000873,Benningen (N),Benningen (Neckar),timetable,1.0
+de:08118:7503_Parent,08003853,Marbach (N),Marbach (Neckar),timetable,1.0
+de:08118:3514,08001827,Erdmannhausen,Erdmannhausen,timetable,1.0
+de:08119:7502,08003266,Kirchberg (M),Kirchberg (Murr),timetable,1.0
+de:08119:7500,08001296,Burgstall (M),Burgstall (Murr),timetable,1.0
+de:08118:7404_Parent,08005820,Tamm,Tamm (Württ),timetable,1.0
+de:08118:7400_Parent,08000630,Asperg,Asperg,timetable,1.0
+de:08115:1301,08003831,Malmsheim,Malmsheim,timetable,1.0
+de:08115:1302,08005236,Rutesheim,Rutesheim,timetable,1.0
+de:08115:7301_Parent,08003652,Leonberg,Leonberg,timetable,1.0
+de:08115:1003,08002892,Höfingen,Höfingen,timetable,1.0
+de:08118:7000_Parent,08001476,Ditzingen,Ditzingen,timetable,1.0
+de:08111:2270_Parent,08006268,Weilimdorf Bf,Stuttgart-Weilimdorf,timetable,1.0
+de:08118:7603_Parent,08003409,Korntal,Korntal,timetable,1.0
+de:08111:1403,08004338,Neuwirtsh. (Porschep.),Neuwirtshaus (Porscheplatz),timetable,1.0
+de:08115:3195_Parent,08005001,Renningen Süd,Renningen Süd,timetable,1.0
+de:08115:3196,08003807,Magstadt,Magstadt,timetable,1.0
+de:08115:3197_Parent,08003834,Maichingen Nord,Maichingen Nord,timetable,1.0
+de:08115:3198_Parent,08003808,Maichingen,Maichingen,timetable,1.0
+de:08115:3201_Parent,08005574,Sindelfingen,Sindelfingen,timetable,1.0
+de:08221:1457_Parent,08002681,"Heidelberg, Weststadt/Südstadt",HD-Weststadt/Südstadt,timetable,1.0
+de:08221:1166_Parent,08002685,"Heidelberg, Altstadt",Heidelberg-Altstadt,timetable,1.0
+de:08221:1287_Parent,08005366,"Schlierbach-Ziegelhausen, Bhf",Heidelberg-Schlierbach-Ziegelhausen,timetable,1.0
+de:08221:1284_Parent,08002684,"Schlierbach, Orthopädische Kl.",Heidelberg-Orthopädie,timetable,1.0
+de:08226:2994,08004217,"Neckargemünd, Altstadt",Neckargemünd Altstadt,timetable,1.0
+de:06431:3047_Parent,08004219,"Neckarsteinach, Bahnhof",Neckarsteinach,timetable,1.0
+de:06431:3045_Parent,08004218,Neckarhausen b.Neckarsteinach,Neckarhausen bei Neckarsteinach,timetable,1.0
+de:06431:1590_Parent,08002857,"Hirschhorn, Bahnhof",Hirschhorn (Neckar),timetable,1.0
+de:08226:574_Parent,08003690,"Lindach, Bahnhof",Lindach,timetable,1.0
+de:08225:9191,08006686,"Zwingenberg/Bd, Bahnhof",Zwingenberg (Baden),timetable,1.0
+de:08225:9129,08004216,"Neckargerach, Bahnhof",Neckargerach,timetable,1.0
+de:08225:9128_Parent,08000973,"Binau, Bahnhof",Binau,timetable,1.0
+de:08225:9180_Parent,08000264,"Neckarelz, Bahnhof",Mosbach-Neckarelz,timetable,1.0
+de:08225:6343_Parent,08004095,"Mosbach, Westbahnhof",Mosbach West,timetable,1.0
+de:08225:8209,08004094,"Mosbach, Bahnhof",Mosbach (Baden),timetable,1.0
+de:08225:8208,08004215,"Neckarburken, Bahnhof",Neckarburken,timetable,1.0
+de:08225:8207,08001366,"Dallau, Bahnhof",Dallau,timetable,1.0
+de:08225:8206,08000649,"Auerbach (b. Mosbach), Bahnhof",Auerbach (b Mosbach),timetable,1.0
+de:08225:8205,08004577,"Oberschefflenz, Bahnhof",Oberschefflenz,timetable,1.0
+de:08225:8204,08001707,"Eicholzheim, Bahnhof",Eicholzheim,timetable,1.0
+de:08225:8202,08006661,"Zimmern, Bahnhof",Zimmern bei Seckach,timetable,1.0
+de:08225:6777_Parent,08000423,"Adelsheim, Nordbahnhof",Adelsheim Nord,timetable,1.0
+de:08222:2334_Parent,08003842,"MA-Friedrichsfeld, Südbahnhof",Mannheim-Friedrichsfeld Süd,timetable,1.0
+de:07314:2127_Parent,08003765,"LU-Mundenheim, Bahnhof",Ludwigshafen-Mundenheim,timetable,0.992
+de:07314:2189,08003767,"LU Rheingönheim, Bahnhof",Ludwigshafen-Rheingönheim,timetable,1.0
+de:07338:1917,08003687,"Limburgerhof, Bahnhof",Limburgerhof,timetable,1.0
+de:07335:9115_Parent,08002036,"Frankenstein, Bahnhof",Frankenstein (Pfalz),timetable,1.0
+de:07332:3062_Parent,08079146,"Neidenfels, Bahnhof",Neidenfels,timetable,1.0
+de:07318:3650,08005626,"Speyer, Nord/West",Speyer Nord-West,timetable,0.989
+de:07334:35004,08003125,"Jockgrim, Bahnhof",Jockgrim Bf,timetable,1.0
+de:07334:1743,08005072,"Rheinzabern, Alte Römerstraße",Rheinzabern Alte Römerstraße,timetable,1.0
+de:07334:35003,08005069,"Rheinzabern, Bahnhof",Rheinzabern Bf,timetable,1.0
+de:07334:32451,08005217,"Rülzheim, Bahnhof",Rülzheim Bf,timetable,1.0
+de:07334:32660,08000863,"Bellheim, Bahnhof",Bellheim Bf,timetable,0.991
+de:07334:35002,08005602,"Sondernheim, Bahnhof",Sondernheim,timetable,1.0
+de:07334:1748,08002239,"Germersheim, Mitte/Rhein",Germersheim Mitte/Rhein,timetable,1.0
+de:08215:12639,08001212,Bruchsal Sportzentrum,Bruchsal Sportzentrum,timetable,0.985
+de:08215:32985,08001214,Bruchsal Am Mantel,Bruchsal am Mantel,timetable,1.0
+de:08215:32592,08003181,Karlsdorf (Neuthard),Karlsdorf,timetable,0.985
+de:08215:32591,08002345,Graben-Neudorf Nord,Graben-Neudorf Nord,timetable,1.0
+de:08215:32590,08003033,Huttenheim (Baden),Huttenheim,timetable,0.983
+de:08215:1861_Parent,08005931,Ubstadt-Weiher,Ubstadt-Weiher,timetable,1.0
+de:08215:1864_Parent,08005933,Stettfeld-Weiher,Stettfeld-Weiher,timetable,1.0
+de:08215:1862_Parent,08003533,Bad Schönborn Süd,Bad Schönborn Süd,timetable,1.0
+de:07334:1745,08005214,"Rülzheim, Freizeitzentrum",Rülzheim Freizeitzentrum,timetable,1.0
+de:07334:1744,08005071,"Rheinzabern, Rappengasse",Rheinzabern Rappengasse,timetable,0.987
+de:07334:1746,08000861,"Bellheim, Am Mühlbuckel",Bellheim Am Mühlbuckel,timetable,1.0
+de:07334:1747_Parent,08002241,"Germersheim, Süd/Nolte",Germersheim Süd/Nolte,timetable,1.0
+de:07331:2850,08004003,"Mettenheim, Bahnhof",Mettenheim,timetable,1.0
+de:07331:15,08000506,"Alsheim, Bahnhof",Alsheim,timetable,1.0
+de:07339:34233,08001448,"Dienheim, Bahnhof",Dienheim,timetable,1.0
+de:07315:8181,08003819,"Laubenheim, Bahnhof",Mainz-Laubenheim,timetable,1.0
+de:08222:2481_Parent,08003844,"Neckarau, Bahnhof",Mannheim-Neckarau,timetable,1.0
+de:08212:3102_Parent,08003185,Hagsfeld Bahnhof,Karlsruhe-Hagsfeld,timetable,1.0
+de:08215:32239_Parent,08001009,Blankenloch,Blankenloch,timetable,1.0
+de:08215:33000,08002116,Friedrichstal (Baden),Friedrichstal (Baden),timetable,1.0
+de:08215:32584,08006417,Wiesental (Baden),Wiesental,timetable,1.0
+de:08215:32509_Parent,08006137,Waghäusel,Waghäusel,timetable,1.0
+de:08226:3101_Parent,08004304,"Neulußheim, Bahnhof",Neulußheim,timetable,1.0
+de:08226:1620_Parent,08002883,"Hockenheim, Bahnhof",Hockenheim,timetable,1.0
+de:08226:3285_Parent,08004658,"Oftersheim, Bahnhof",Oftersheim,timetable,1.0
+de:08226:3505_Parent,08005494,"Schwetzingen, Bahnhof",Schwetzingen,timetable,1.0
+de:08226:3716,08005492,"Schwetzingen, Nordstadt",Schwetzingen-Nordstadt,timetable,1.0
+de:08226:35055,08005493,Schwetzingen-Hirschacker,Schwetzingen-Hirschacker,timetable,1.0
+de:08222:2525_Parent,08003845,"MA-Rheinau, Bahnhof",Mannheim-Rheinau,timetable,1.0
+de:06414:6907_Parent,08000250,"Wiesbaden, Hauptbahnhof",Wiesbaden Hbf,timetable,1.0
+de:08226:3545_Parent,08002931,"Hoffenheim, Bahnhof",Hoffenheim,timetable,1.0
+de:08226:4520,08006679,"Zuzenhausen, Bahnhof",Zuzenhausen,timetable,1.0
+de:08226:2800,08003915,"Mauer, Bahnhof",Mauer (b Heidelberg),timetable,1.0
+de:08226:204_Parent,08005015,"Reilsheim, Bahnhof",Reilsheim,timetable,1.0
+de:08226:200_Parent,08000794,"Bammental, Bahnhof",Bammental,timetable,1.0
+de:08226:710,08007443,"Eschelbronn, Bahnhof",Eschelbronn,timetable,1.0
+de:08226:3065,08007441,"Neidenstein, Bahnhof",Neidenstein,timetable,1.0
+de:08226:3943,08007442,"Waibstadt, Bahnhof",Waibstadt,timetable,1.0
+de:08226:2962,08077434,"Neckarbischofsheim, Nordbhf.",Neckarbischofsheim Nord,timetable,1.0
+de:08226:1464,08007444,"Helmstadt, Bahnhof",Helmstadt (Baden),timetable,1.0
+de:08225:9175,08007445,"Aglasterhausen, Bahnhof",Aglasterhausen,timetable,1.0
+de:08222:2356_Parent,08003843,"MA-Käfertal, DB-Bahnhof",Mannheim-Käfertal,timetable,1.0
+de:08121:8170,08002700,Heilbronn Trappensee (S-Bahn),Heilbronn Trappensee,timetable,1.0
+de:08125:1939,08006290,Weinsberg West,Weinsberg West,timetable,1.0
+de:08125:1598,08006294,Weinsberg/Ellhofen Gewerbegebiet,Weinsberg/Ellhofen Gewerbegebiet,timetable,1.0
+de:08125:2003,08001747,Ellhofen,Ellhofen,timetable,1.0
+de:08125:2004,08005786,Sülzbach,Sülzbach,timetable,1.0
+de:08125:2005,08005792,Sülzbach Schule,Sülzbach Schule,timetable,1.0
+de:08125:2032,08000431,Affaltrach,Affaltrach,timetable,1.0
+de:08125:1023_Parent,08001874,Eschenau (b Heilbronn),Eschenau (b Heilbronn),timetable,1.0
+de:08125:1565,08006416,Wieslensdorf,Wieslensdorf,timetable,1.0
+de:08126:19600,08005329,Scheppach,Scheppach,timetable,1.0
+de:08126:19601_Parent,08001005,Bitzfeld,Bitzfeld,timetable,1.0
+de:08126:19603,08004624,Öhringen West,Öhringen West,timetable,1.0
+de:08212:802_Parent,08003184,Durlach Bahnhof,Karlsruhe-Durlach,timetable,1.0
+de:08216:1819_Parent,08001616,Durmersheim,Durmersheim,timetable,1.0
+de:08216:35109_Parent,08070170,Durmersheim Nord,Durmersheim Nord,timetable,1.0
+de:08215:1818,08002023,Forchheim (b Karlsruhe),Forchheim (b Karlsruhe),timetable,1.0
+de:07334:1741,08006531,"Wörth, Zügelstr.",Wörth Zügelstraße,timetable,1.0
+de:09162:5_Parent,08000262,Ostbahnhof,München Ost,timetable,1.0
+de:09163:9_Parent,08000320,Rosenheim,Rosenheim,timetable,1.0
+de:05913:131_Parent,08000080,Dortmund Hbf,Dortmund Hbf,timetable,1.0
+de:08116:4418,08004553,Oberlenningen,Oberlenningen,timetable,1.0
+de:08116:5781,08005998,Unterlenningen,Unterlenningen,timetable,1.0
+de:08116:5780,08001205,Brucken,Brucken,timetable,1.0
+de:08116:5779,08004740,Owen,Owen (Teck),timetable,1.0
+de:08116:5778,08001428,Dettingen (T),Dettingen (Teck),timetable,1.0
+de:08116:5777,08003283,Kirchheim (T) Süd,Kirchheim (Teck) Süd,timetable,1.0
+de:08436:8246_Parent,08000559,Altshausen Bahnhof,Altshausen,timetable,1.0
+de:06412:912_Parent,08002041,Frankfurt (Main) Südbahnhof,Frankfurt (Main) Süd,timetable,1.0
+de:10043:8000272,08000272,Neunkirchen (Saar) Hbf,Neunkirchen (Saar) Hbf,timetable,1.0
+de:07140:060039,08000045,Boppard Hauptbahnhof,Boppard Hbf,timetable,1.0
+gen:7140:398::,08005645,St. Goar Bahnhof,St. Goar,timetable,1.0
+de:07140:060004,08004601,Oberwesel Bahnhof,Oberwesel,timetable,1.0
+de:07339:32623,08000683,"Bacharach, Bahnhof",Bacharach,timetable,1.0
+de:08437:41003,08002760,Herbertingen Ort,Herbertingen Ort,timetable,1.0
+de:08116:5770_Parent,08004517,Oberboihingen,Oberboihingen,timetable,1.0
+de:08425:2559,08079075,Amstetten (Württ) Lokalbahnhof,Amstetten (Württ),timetable,1.0
+de:07133:8178,08000021,"Bad Kreuznach, Bahnhof",Bad Kreuznach,name,0.5
+de:08415:28030,08012456,Neuhausen Bahnhof,Neuhausen,name,0.5
+de:07334:35000_Parent,08006468,"Winden, Bahnhof",Winden (Pfalz),name,0.5
+de:10041:8005241,08005241,Saarbrücken Ost,Saarbrücken Ost,name,0.5
+de:15002:8010159,08010159,Halle(Saale)Hbf,Halle (Saale) Hbf,name,0.5
+de:02000:10950,08098549,Hamburg Hbf,Hamburg Hbf,name,0.5
+de:07333:8173,08005111,"Rockenhausen, Bahnhof",Rockenhausen,name,0.5
+de:10045:8005044,08005044,Rentrisch,Rentrisch,name,0.5
+de:07333:9075,08006483,"Winnweiler, Bahnhof",Winnweiler,name,0.5
+de:09780:1783,08004584,Oberstaufen,Oberstaufen,name,0.5
+de:06438:2702,08001236,Dreieich-Buchschlag Bahnhof,Dreieich-Buchschlag,name,0.5
+de:08111:1504,08004171,Münster,Münster (b Dieburg),name,0.5
+de:06412:2799,08002047,Frankfurt (Main) Louisa Bahnhof,Frankfurt-Louisa,name,0.5
+de:07231:40283,08002817,"Hetzerath, Bahnhof",Hetzerath,name,0.5
+de:08215:1157,08002880,Hochstetten,Hochstetten (Nahe),name,0.5
+de:10041:8005332,08005332,Scheidt (Saar),Scheidt (Saar),name,0.5
+de:06631:11049,08000115,Fulda Bahnhof,Fulda,name,0.5
+ch:23001:20019,08000773,Baden,Baden (Kr Verden),name,0.5
+de:09776:1420,08005138,Röthenbach (Allgäu),Röthenbach (Allgäu),name,0.5
+de:07312:8126,08006100,Vogelweh,Vogelweh,name,0.5
+ch:23017:50091,08012456,Neuhausen,Neuhausen,name,0.5
+de:07312:8127,08003232,"Kennelgarten, Bahnhof",Kennelgarten,name,0.5
+lu:25000:NVBW_026:91:2,08000034,Betzdorf (Lux.) Bahnhof,Betzdorf (Sieg),name,0.5
+de:06436:2001,08002637,Hattersheim (Main) Bahnhof,Hattersheim (Main),name,0.5
+de:07211:3114,08004752,Trier-Pallien,Trier-Pallien,name,0.5
+de:08127:27531,08013217,Wallhausen Bahnhof,Wallhausen (Helme),name,0.5
+de:07337:8053,08000466,"Albersweiler, Bahnhof",Albersweiler (Pfalz),name,0.5
+de:08327:1257,08000427,Kirchen Bahnhof,Kirchen,name,0.5
+de:09676:1806,08006279,Weilbach (Unterfr),Weilbach (Unterallg),name,0.5
+de:14713:8010205,08010205,Leipzig Hbf,Leipzig Hbf,name,0.5
+de:07313:15081,08003507,"Landau, Süd",Landau (Pfalz) Süd,name,0.5
+de:09776:1515,08002710,Heimenkirch,Heimenkirch,name,0.5
+de:10045:8003684,08012231,"Limbach (b Homburg,Saar)",Limbach (Vogtl),name,0.5
+de:07313:8051,08002300,"Godramstein, Bahnhof",Godramstein,name,0.5
+de:09172:42293,08000108,Freilassing,Freilassing,name,0.5
+de:16051:8010101,08010101,Erfurt Hbf,Erfurt Hbf,name,0.5
+de:05515:41000,08000263,Münster (Westf)  Hauptbahnhof,Münster (Westf) Hbf,name,0.5
+de:08119:5791,08004011,Michelau Bahnhof,Michelau (Oberfr),name,0.5
+de:07235:7560,08002018,"Föhren, Bahnhof",Föhren,name,0.5

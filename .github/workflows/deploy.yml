@@ -1,0 +1,39 @@
+name: Deploy
+
+# On every merge to main (after CI passes): pull the new code on the Azure VM and rebuild.
+# Secrets: DEPLOY_HOST, DEPLOY_USER, DEPLOY_SSH_KEY. The VM keeps its own .env, ./data and
+# ./ml/artifacts (uploaded once with scripts/upload_artifacts.sh), which are never in git.
+on:
+  workflow_run:
+    workflows: [CI]
+    types: [completed]
+    branches: [main]
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Deploy over SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.DEPLOY_HOST }}
+          username: ${{ secrets.DEPLOY_USER }}
+          key: ${{ secrets.DEPLOY_SSH_KEY }}
+          script: |
+            set -euo pipefail
+            cd ~/heimkommen
+            git fetch --depth 1 origin main
+            git reset --hard origin/main
+            docker compose -f docker-compose.prod.yml up -d --build --remove-orphans
+            docker image prune -f
+            for i in $(seq 1 30); do
+              curl -fsS "https://$(grep ^DOMAIN= .env | cut -d= -f2)/health" && exit 0
+              sleep 5
+            done
+            echo "health check failed" && exit 1

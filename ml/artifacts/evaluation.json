@@ -1,0 +1,255 @@
+{
+  "model_version": "v1",
+  "months": [
+    "2026-07",
+    "2026-08"
+  ],
+  "journeys": 891,
+  "journeys_with_transfer": 520,
+  "brier": {
+    "held": {
+      "observed_rate": 0.7586980920314254,
+      "timetable_only": 0.24130190796857465,
+      "historical_median": 0.16835016835016836,
+      "simulator": 0.1267733232323232
+    },
+    "on_time": {
+      "observed_rate": 0.5274971941638609,
+      "timetable_only": 0.4725028058361392,
+      "historical_median": 0.39057239057239057,
+      "simulator": 0.21642361167227833
+    },
+    "stranded": {
+      "observed_rate": 0.04264870931537598,
+      "timetable_only": 0.04264870931537598,
+      "historical_median": 0.04264870931537598,
+      "simulator": 0.0325922760942761
+    }
+  },
+  "calibration": {
+    "on_time": [
+      {
+        "bin": 1,
+        "count": 40,
+        "mean_predicted": 0.17785,
+        "observed": 0.175
+      },
+      {
+        "bin": 2,
+        "count": 49,
+        "mean_predicted": 0.2416734693877551,
+        "observed": 0.12244897959183673
+      },
+      {
+        "bin": 3,
+        "count": 81,
+        "mean_predicted": 0.3605185185185185,
+        "observed": 0.345679012345679
+      },
+      {
+        "bin": 4,
+        "count": 131,
+        "mean_predicted": 0.4372977099236641,
+        "observed": 0.40458015267175573
+      },
+      {
+        "bin": 5,
+        "count": 349,
+        "mean_predicted": 0.5513696275071633,
+        "observed": 0.5873925501432665
+      },
+      {
+        "bin": 6,
+        "count": 77,
+        "mean_predicted": 0.6430129870129871,
+        "observed": 0.5584415584415584
+      },
+      {
+        "bin": 7,
+        "count": 74,
+        "mean_predicted": 0.7404189189189189,
+        "observed": 0.6621621621621622
+      },
+      {
+        "bin": 8,
+        "count": 38,
+        "mean_predicted": 0.8580526315789474,
+        "observed": 0.8421052631578947
+      },
+      {
+        "bin": 9,
+        "count": 52,
+        "mean_predicted": 0.9470192307692309,
+        "observed": 0.9038461538461539
+      }
+    ],
+    "held": [
+      {
+        "bin": 1,
+        "count": 6,
+        "mean_predicted": 0.17833333333333332,
+        "observed": 0.0
+      },
+      {
+        "bin": 2,
+        "count": 8,
+        "mean_predicted": 0.266625,
+        "observed": 0.125
+      },
+      {
+        "bin": 3,
+        "count": 59,
+        "mean_predicted": 0.3452203389830508,
+        "observed": 0.3050847457627119
+      },
+      {
+        "bin": 4,
+        "count": 47,
+        "mean_predicted": 0.4515744680851063,
+        "observed": 0.19148936170212766
+      },
+      {
+        "bin": 5,
+        "count": 64,
+        "mean_predicted": 0.551921875,
+        "observed": 0.421875
+      },
+      {
+        "bin": 6,
+        "count": 17,
+        "mean_predicted": 0.6323529411764706,
+        "observed": 0.6470588235294118
+      },
+      {
+        "bin": 7,
+        "count": 55,
+        "mean_predicted": 0.7488000000000002,
+        "observed": 0.7636363636363637
+      },
+      {
+        "bin": 8,
+        "count": 157,
+        "mean_predicted": 0.8431146496815287,
+        "observed": 0.802547770700637
+      },
+      {
+        "bin": 9,
+        "count": 107,
+        "mean_predicted": 0.9431869158878505,
+        "observed": 0.8598130841121495
+      }
+    ]
+  },
+  "by_buffer": [
+    {
+      "buffer": "≤ 5 min",
+      "journeys": 93,
+      "observed_held": 0.26881720430107525,
+      "predicted_held": 0.37540860215053773,
+      "brier_simulator": 0.20020321505376343,
+      "brier_timetable": 0.7311827956989247
+    },
+    {
+      "buffer": "6-10 min",
+      "journeys": 187,
+      "observed_held": 0.5882352941176471,
+      "predicted_held": 0.6586363636363636,
+      "brier_simulator": 0.18790323529411768,
+      "brier_timetable": 0.4117647058823529
+    },
+    {
+      "buffer": "> 10 min",
+      "journeys": 240,
+      "observed_held": 0.7958333333333333,
+      "predicted_held": 0.8635999999999999,
+      "brier_simulator": 0.16159643333333334,
+      "brier_timetable": 0.20416666666666666
+    }
+  ],
+  "by_pair": [
+    {
+      "pair": "Freiburg Hauptbahnhof -> Villingen Bahnhof/ZOB",
+      "journeys": 104,
+      "observed_on_time": 0.7404,
+      "predicted_on_time": 0.769,
+      "gap": 0.0286
+    },
+    {
+      "pair": "Offenburg Bahnhof -> St. Georgen Bahnhof",
+      "journeys": 100,
+      "observed_on_time": 0.66,
+      "predicted_on_time": 0.595,
+      "gap": -0.0651
+    },
+    {
+      "pair": "Karlsruhe Hauptbahnhof -> Villingen Bahnhof/ZOB",
+      "journeys": 97,
+      "observed_on_time": 0.5567,
+      "predicted_on_time": 0.5382,
+      "gap": -0.0185
+    },
+    {
+      "pair": "Singen (Htw) Bahnhof -> Rottweil Bahnhof",
+      "journeys": 90,
+      "observed_on_time": 0.5556,
+      "predicted_on_time": 0.5242,
+      "gap": -0.0313
+    },
+    {
+      "pair": "Stuttgart Hauptbahnhof (oben) -> Villingen Bahnhof/ZOB",
+      "journeys": 76,
+      "observed_on_time": 0.2895,
+      "predicted_on_time": 0.4287,
+      "gap": 0.1392
+    },
+    {
+      "pair": "Konstanz Bahnhof -> Villingen Bahnhof/ZOB",
+      "journeys": 67,
+      "observed_on_time": 0.5821,
+      "predicted_on_time": 0.5758,
+      "gap": -0.0063
+    },
+    {
+      "pair": "Konstanz Bahnhof -> Rottweil Bahnhof",
+      "journeys": 64,
+      "observed_on_time": 0.3594,
+      "predicted_on_time": 0.3563,
+      "gap": -0.0031
+    },
+    {
+      "pair": "Stuttgart Hauptbahnhof (oben) -> Triberg Bahnhof",
+      "journeys": 64,
+      "observed_on_time": 0.4062,
+      "predicted_on_time": 0.4029,
+      "gap": -0.0034
+    },
+    {
+      "pair": "Karlsruhe Hauptbahnhof -> Tuttlingen Bahnhof",
+      "journeys": 60,
+      "observed_on_time": 0.6833,
+      "predicted_on_time": 0.606,
+      "gap": -0.0773
+    },
+    {
+      "pair": "Freiburg Hauptbahnhof -> Tuttlingen Bahnhof",
+      "journeys": 59,
+      "observed_on_time": 0.4915,
+      "predicted_on_time": 0.6134,
+      "gap": 0.1218
+    },
+    {
+      "pair": "Stuttgart Hauptbahnhof (oben) -> Donaueschingen Bahnhof",
+      "journeys": 55,
+      "observed_on_time": 0.4182,
+      "predicted_on_time": 0.4879,
+      "gap": 0.0697
+    },
+    {
+      "pair": "Tübingen Hauptbahnhof -> Villingen Bahnhof/ZOB",
+      "journeys": 55,
+      "observed_on_time": 0.3636,
+      "predicted_on_time": 0.4734,
+      "gap": 0.1098
+    }
+  ]
+}

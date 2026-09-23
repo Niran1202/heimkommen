@@ -1,0 +1,6 @@
+route_id,agency_id,route_short_name,route_long_name,route_type
+rb42,a1,RB 42,Villingen - Rottweil,2
+re87,a1,RE 87,Rottweil - Stuttgart,2
+ic2,a1,IC 2,Villingen - Stuttgart,2
+bus550,a1,550,Rottweil - Dorf,3
+bus99,a1,99,Stuttgart Stadtbus,3
