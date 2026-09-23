@@ -189,6 +189,7 @@ def main() -> None:
                                                     category_filter=allowed_with_deutschlandticket)
             stranded = not onward
 
+        # Median baseline is deterministic: a connection either works or it does not.
         med_held = all(
             median[i - 1][1] + planner.change_time(journey.legs[i - 1], journey.legs[i]) <= median[i][0]
             for i in range(1, len(median)))
