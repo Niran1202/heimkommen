@@ -134,6 +134,7 @@ class DBTimetablesClient:
         if response.status_code == 429:
             LIVE_API_CALLS.labels(endpoint, "rate_limited").inc()
             raise LiveDataUnavailable("DB API rate limit reached")
+        # The API answers 404 for an hour without trains.
         if response.status_code == 404:
             LIVE_API_CALLS.labels(endpoint, "not_found").inc()
             return "<timetable/>"
