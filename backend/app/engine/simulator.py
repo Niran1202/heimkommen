@@ -131,6 +131,7 @@ class JourneySimulator:
                 # The traveller is at the station from ``ready``; they take the alternative if
                 # its first train has not left yet.
                 alt_arrival, _alt_ok, alt_failed_at, _ = self._run_chain(alt_legs, np.nan_to_num(ready, nan=np.inf))
+                # alt_failed_at == 0 means the fallback's first train was also missed or cancelled.
                 catchable = pending & (alt_failed_at != 0)
                 final[catchable] = alt_arrival[catchable]
                 alternative_used[catchable] = alt_idx
