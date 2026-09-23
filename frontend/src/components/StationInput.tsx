@@ -19,6 +19,7 @@ export function StationInput({ label, value, onChange, onLocate, locating, place
   const skipNext = useRef(false)
 
   useEffect(() => {
+    // Picking a suggestion changes the value; don't search again for it.
     if (skipNext.current) {
       skipNext.current = false
       return
