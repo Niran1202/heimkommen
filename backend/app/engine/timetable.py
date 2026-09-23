@@ -205,6 +205,7 @@ class TimetableStore:
         store.footpaths = [[] for _ in range(n_stops)]
         for station in store.stations:
             platforms = station.stops
+            # Huge bus hubs would add thousands of walking edges for little gain.
             if len(platforms) < 2 or len(platforms) > 80:
                 continue
             for a in platforms:
