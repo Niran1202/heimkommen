@@ -111,6 +111,7 @@ class Raptor:
         # No regional journey takes longer than ``max_travel``: prune everything beyond it.
         best_target = start + max_travel
 
+        # Round k: scan every pattern that serves a stop improved in round k - 1.
         for k in range(1, max_rounds + 1):
             queue: dict[int, int] = {}
             for stop in marked:
