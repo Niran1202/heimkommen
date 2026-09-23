@@ -149,6 +149,7 @@ class Raptor:
                     if r >= INF:
                         continue
                     column = dep_cols[pos]
+                    # Already on a trip that leaves after we are ready here: an earlier trip cannot be caught.
                     if row >= 0 and r > column[row]:
                         continue
                     # Raw departures are sorted (rows ordered by first departure, FIFO trips);
