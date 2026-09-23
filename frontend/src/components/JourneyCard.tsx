@@ -2,6 +2,7 @@ import { lazy, Suspense, useState } from 'react'
 import { api, type Journey, type LiveJourney } from '../api/client'
 import { levelForMiss, Meter, pct, RiskBadge } from './RiskBadge'
 
+// Leaflet is only downloaded when a map is opened.
 const JourneyMap = lazy(() => import('./JourneyMap').then((m) => ({ default: m.JourneyMap })))
 
 type Props = {
