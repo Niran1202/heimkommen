@@ -49,6 +49,7 @@ export function CalibrationChart({ series, title }: { series: Series[]; title: s
               <polyline className="series-line" fill="none"
                 points={s.bins.map((b) => `${x(b.mean_predicted)},${y(observed(b))}`).join(' ')} />
               {s.bins.map((b) => {
+                // sqrt so the marker area, not the radius, grows with the number of journeys.
                 const r = 4 + 8 * Math.sqrt(b.count / maxCount)
                 return (
                   <g key={`${s.key}-${b.mean_predicted}`}>
