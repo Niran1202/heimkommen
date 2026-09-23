@@ -17,6 +17,7 @@ export function RiskBadge({ level }: { level: string }) {
   )
 }
 
+// Thresholds for how likely a single connection is to be missed.
 export function levelForMiss(p: number): Level {
   if (p < 0.1) return 'low'
   if (p < 0.3) return 'medium'
