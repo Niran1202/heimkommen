@@ -27,6 +27,7 @@ def build_engine(url: str) -> Engine:
         @event.listens_for(new_engine, "connect")
         def _sqlite_pragmas(dbapi_connection, _record) -> None:  # pragma: no cover - driver hook
             cursor = dbapi_connection.cursor()
+            # WAL lets the API keep reading while a job writes.
             cursor.execute("PRAGMA journal_mode=WAL")
             cursor.execute("PRAGMA synchronous=NORMAL")
             cursor.execute("PRAGMA foreign_keys=ON")
