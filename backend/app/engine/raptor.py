@@ -244,6 +244,7 @@ class Raptor:
                 options.append(journey)
                 if len(options) >= count:
                     break
+            # Next query starts one minute later so the same departure is not found again.
             t = journey.departure + 60
         return options
 
