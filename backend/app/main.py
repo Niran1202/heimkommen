@@ -2,6 +2,7 @@ import logging
 import threading
 import time
 from contextlib import asynccontextmanager
+from pathlib import Path
 
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
@@ -81,17 +82,18 @@ app.include_router(accuracy_router)
 
 _static = get_settings().static_dir
 if _static is not None and (_static / "index.html").exists():
-    app.mount("/assets", StaticFiles(directory=_static / "assets"), name="assets")
+    static_root: Path = _static.resolve()
+    app.mount("/assets", StaticFiles(directory=static_root / "assets"), name="assets")
 
     @app.get("/{path:path}", include_in_schema=False)
     def spa(path: str) -> FileResponse:
         """Serve the React app; unknown paths fall back to index.html (client-side routing)."""
         if path.startswith("api/"):
             raise HTTPException(status_code=404, detail="Not Found")
-        candidate = (_static / path).resolve()
-        if path and candidate.is_file() and candidate.is_relative_to(_static.resolve()):
+        candidate = (static_root / path).resolve()
+        if path and candidate.is_file() and candidate.is_relative_to(static_root):
             return FileResponse(candidate)
-        return FileResponse(_static / "index.html")
+        return FileResponse(static_root / "index.html")
 else:
 
     @app.get("/")
