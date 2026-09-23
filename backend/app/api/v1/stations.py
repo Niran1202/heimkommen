@@ -31,6 +31,7 @@ def nearby_stations(
     rail_only: bool = False,
 ) -> StationsResponse:
     """Closest stations to a position (the browser's geolocation never leaves this request)."""
+    # Flat-earth distance is accurate enough within a region.
     scale = math.cos(math.radians(lat))
     candidates = [s for s in eng.store.stations
                   if s.stops and s.lat is not None and s.lon is not None and (s.is_rail or not rail_only)]
