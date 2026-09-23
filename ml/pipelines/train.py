@@ -48,6 +48,7 @@ def load_events(months: list[str], per_month: int) -> pd.DataFrame:
         stops = pd.read_parquet(path)
         stops = stops[~stops["is_additional_stop"]]
         events = events_from_stops(stops)
+        # Same sample size per month, so busy months do not dominate training.
         if per_month and len(events) > per_month:
             events = events.sample(per_month, random_state=int(RNG.integers(1 << 30)))
         frames.append(events)
