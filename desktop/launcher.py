@@ -85,6 +85,7 @@ def is_heimkommen(port: int) -> bool:
 
 
 def free_port() -> int:
+    # A fixed port lets a second launch find the running instance; 0 = any free port.
     for port in (PREFERRED_PORT, 0):
         with socket.socket() as s:
             try:
