@@ -9,6 +9,7 @@ from app.core.config import get_settings
 
 
 def hash_password(password: str) -> str:
+    # bcrypt only uses the first 72 bytes of a password.
     return bcrypt.hashpw(password.encode("utf-8")[:72], bcrypt.gensalt()).decode("ascii")
 
 
