@@ -57,6 +57,7 @@ def events_from_stops(df: pd.DataFrame) -> pd.DataFrame:
     df["arr_delay"] = (df["arrival_change_time"] - df["arrival_planned_time"]).dt.total_seconds() / 60
     df["dep_delay"] = (df["departure_change_time"] - df["departure_planned_time"]).dt.total_seconds() / 60
     df = df.sort_values(["train_line_ride_id", "train_line_station_num"])
+    # Delay with which the same train left its previous station.
     df["prev_delay"] = df.groupby("train_line_ride_id", sort=False)["dep_delay"].shift(1)
     df["ride_len"] = df.groupby("train_line_ride_id", sort=False)["train_line_station_num"].transform("max")
     df["station_num"] = df["train_line_station_num"].astype(float)
