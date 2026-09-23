@@ -76,6 +76,7 @@ class JourneySimulator:
 
     def _sample_legs(self, legs: list[SimLeg]) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
         n = len(legs)
+        # One uniform per leg and run, shared by its departure and arrival delay.
         u = self.rng.random((n, self.runs))
         dep_q = np.array([leg.dep_q for leg in legs])
         arr_q = np.array([leg.arr_q for leg in legs])
