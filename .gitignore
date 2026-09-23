@@ -37,3 +37,9 @@ ci.db
 .vscode/
 .idea/
 *.log
+
+# Desktop build output (binaries: publish via GitHub Releases, not git)
+/desktop/build/
+/desktop/release/
+/desktop/dist/
+/desktop/Output/

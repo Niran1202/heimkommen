@@ -20,7 +20,7 @@ jobs:
           cache-dependency-path: backend/pyproject.toml
       - run: pip install -e ".[dev]"
       - name: Lint
-        run: ruff check app tests ../scripts ../ml/pipelines
+        run: ruff check app tests ../scripts ../ml/pipelines ../desktop
       - name: Type check
         run: mypy app
       - name: Unit tests

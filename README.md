@@ -109,6 +109,11 @@ frontend). Production: `docker-compose.prod.yml` adds Caddy (automatic HTTPS), P
 real Postgres and Redis via testcontainers when Docker is available. The frontend is type-checked, linted and built
 in CI.
 
+## Windows app
+
+A self-contained Windows version (installer, no login, timetable and model included) is built from
+[`desktop/`](desktop/README.md) with `python desktop/build.py`.
+
 ## Data sources
 
 Timetable © [NVBW](https://www.nvbw.de/open-data) · delay history from

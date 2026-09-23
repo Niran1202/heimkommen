@@ -20,6 +20,8 @@ class Settings(BaseSettings):
 
     artifacts_dir: Path = REPO_ROOT / "ml" / "artifacts"
     data_dir: Path = REPO_ROOT / "data"
+    # When set (desktop app), the API also serves the built React app from this folder.
+    static_dir: Path | None = None
 
     # DB API Marketplace (Timetables API, free plan)
     db_api_base_url: str = "https://apis.deutschebahn.com/db-api-marketplace/apis/timetables/v1"
@@ -32,6 +34,8 @@ class Settings(BaseSettings):
     simulator_runs: int = 2000
     max_journey_options: int = 4
     cors_origins: str = "*"
+    # The desktop app is single-user: no login, no accounts, no saved-trip endpoints.
+    accounts_enabled: bool = True
 
     model_config = SettingsConfigDict(env_file=".env", env_prefix="", case_sensitive=False, extra="ignore")
 

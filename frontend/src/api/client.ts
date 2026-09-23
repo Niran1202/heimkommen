@@ -67,6 +67,7 @@ function query(params: Record<string, string | number | boolean | undefined | nu
 }
 
 export const api = {
+  health: () => request<{ status: string; timetable_loaded: boolean; accounts_enabled?: boolean }>('/health'),
   searchStations: (search: string, signal?: AbortSignal) =>
     request<components['schemas']['StationsResponse']>(`/api/v1/stations?${query({ search, limit: 8 })}`, { signal }),
   nearbyStations: (lat: number, lon: number) =>

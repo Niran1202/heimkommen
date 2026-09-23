@@ -2,6 +2,8 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useState, t
 import { api, getToken, setToken } from '../api/client'
 
 type AuthState = {
+  /** False in the desktop app, which is single-user and has no login. */
+  accountsEnabled: boolean
   email: string | null
   loggedIn: boolean
   login: (email: string, password: string) => Promise<void>
@@ -15,14 +17,24 @@ const AuthContext = createContext<AuthState | null>(null)
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [email, setEmail] = useState<string | null>(null)
   const [loggedIn, setLoggedIn] = useState(() => Boolean(getToken()))
+  const [accountsEnabled, setAccountsEnabled] = useState(true)
 
   useEffect(() => {
-    if (!loggedIn) return
+    api.health().then((h) => {
+      if (h.accounts_enabled === false) {
+        setAccountsEnabled(false)
+        setLoggedIn(false)
+      }
+    }).catch(() => undefined)
+  }, [])
+
+  useEffect(() => {
+    if (!loggedIn || !accountsEnabled) return
     api.me().then((me) => setEmail(me.email)).catch(() => {
       setToken(null)
       setLoggedIn(false)
     })
-  }, [loggedIn])
+  }, [loggedIn, accountsEnabled])
 
   const finish = useCallback((token: string, mail: string) => {
     setToken(token)
@@ -31,6 +43,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   }, [])
 
   const value = useMemo<AuthState>(() => ({
+    accountsEnabled,
     email,
     loggedIn,
     login: async (mail, password) => finish((await api.login(mail, password)).access_token, mail),
@@ -46,7 +59,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
       setEmail(null)
       setLoggedIn(false)
     },
-  }), [email, loggedIn, finish])
+  }), [accountsEnabled, email, loggedIn, finish])
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>
 }

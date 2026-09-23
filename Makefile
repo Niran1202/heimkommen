@@ -41,7 +41,7 @@ screenshots:     ## needs api + web running and playwright installed
 	$(PYTHON) scripts/screenshots.py
 
 lint:
-	cd backend && ruff check app tests ../scripts ../ml/pipelines migrations && mypy app
+	cd backend && ruff check app tests ../scripts ../ml/pipelines ../desktop migrations && mypy app
 	cd frontend && npm run lint
 
 test: lint

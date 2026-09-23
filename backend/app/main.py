@@ -3,8 +3,10 @@ import threading
 import time
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, Request
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import FileResponse
+from fastapi.staticfiles import StaticFiles
 
 from app.api.v1.accuracy import router as accuracy_router
 from app.api.v1.auth import router as auth_router
@@ -69,13 +71,29 @@ async def prometheus_middleware(request: Request, call_next):
 
 
 app.include_router(health_router)
-app.include_router(auth_router)
 app.include_router(stations_router)
 app.include_router(journeys_router)
-app.include_router(me_router)
+if get_settings().accounts_enabled:
+    app.include_router(auth_router)
+    app.include_router(me_router)
 app.include_router(accuracy_router)
 
 
-@app.get("/")
-def read_root() -> dict[str, str]:
-    return {"message": "Heimkommen backend is running", "docs": "/docs"}
+_static = get_settings().static_dir
+if _static is not None and (_static / "index.html").exists():
+    app.mount("/assets", StaticFiles(directory=_static / "assets"), name="assets")
+
+    @app.get("/{path:path}", include_in_schema=False)
+    def spa(path: str) -> FileResponse:
+        """Serve the React app; unknown paths fall back to index.html (client-side routing)."""
+        if path.startswith("api/"):
+            raise HTTPException(status_code=404, detail="Not Found")
+        candidate = (_static / path).resolve()
+        if path and candidate.is_file() and candidate.is_relative_to(_static.resolve()):
+            return FileResponse(candidate)
+        return FileResponse(_static / "index.html")
+else:
+
+    @app.get("/")
+    def read_root() -> dict[str, str]:
+        return {"message": "Heimkommen backend is running", "docs": "/docs"}

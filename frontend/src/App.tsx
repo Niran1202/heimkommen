@@ -9,7 +9,7 @@ import { DisclaimerPage, ImpressumPage, PrivacyPage } from './pages/Legal'
 import { MyTripsPage } from './pages/MyTrips'
 
 function App() {
-  const { loggedIn } = useAuth()
+  const { loggedIn, accountsEnabled } = useAuth()
   return (
     <div className="page-shell">
       <header className="topbar">
@@ -17,7 +17,7 @@ function App() {
         <nav aria-label="Main">
           <NavLink to="/deadline">Deadline</NavLink>
           <NavLink to="/accuracy">Accuracy</NavLink>
-          {loggedIn ? <NavLink to="/trips">My trips</NavLink> : <NavLink to="/login">Log in</NavLink>}
+          {accountsEnabled && (loggedIn ? <NavLink to="/trips">My trips</NavLink> : <NavLink to="/login">Log in</NavLink>)}
         </nav>
       </header>
 
@@ -27,9 +27,13 @@ function App() {
           <Route path="/check" element={<HomeCheckPage />} />
           <Route path="/deadline" element={<DeadlinePage />} />
           <Route path="/accuracy" element={<AccuracyPage />} />
-          <Route path="/login" element={<AuthPage mode="login" />} />
-          <Route path="/register" element={<AuthPage mode="register" />} />
-          <Route path="/trips" element={<MyTripsPage />} />
+          {accountsEnabled && (
+            <>
+              <Route path="/login" element={<AuthPage mode="login" />} />
+              <Route path="/register" element={<AuthPage mode="register" />} />
+              <Route path="/trips" element={<MyTripsPage />} />
+            </>
+          )}
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/impressum" element={<ImpressumPage />} />
           <Route path="/about" element={<DisclaimerPage />} />
