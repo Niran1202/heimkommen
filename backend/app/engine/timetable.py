@@ -293,6 +293,7 @@ class TimetableStore:
                     dep[i, j] = r[3]
                     board[i, j] = r[4] != 1
                     alight[i, j] = r[5] != 1
+            # Nobody boards at the last stop or alights at the first.
             board[:, -1] = False
             alight[:, 0] = False
             category = store.trips[members[0][0]].category
