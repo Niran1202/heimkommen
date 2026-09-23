@@ -12,8 +12,8 @@ jobs:
       run:
         working-directory: backend
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
           cache: pip
@@ -36,8 +36,8 @@ jobs:
       run:
         working-directory: frontend
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
         with:
           node-version: 20
           cache: npm
@@ -50,7 +50,7 @@ jobs:
     # Builds every image and runs the local stack end to end with a small test timetable.
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: Prepare environment
         run: |
           cp .env.example .env
@@ -59,7 +59,8 @@ jobs:
         run: docker compose up -d --build postgres redis api worker frontend
       - name: Import the test timetable inside the api container
         run: |
-          docker compose exec -T api sh -c 'for i in $(seq 1 30); do alembic current >/dev/null 2>&1 && break; sleep 2; done'
+          for i in $(seq 1 60); do curl -fsS localhost:8000/health >/dev/null 2>&1 && break; sleep 2; done
+          curl -fsS localhost:8000/health
           docker compose run --rm \
             -v "$PWD/backend/tests/fixtures:/fixtures:ro" -v "$PWD/scripts:/scripts:ro" \
             api python /scripts/ingest_gtfs.py --path /fixtures/mini_gtfs
