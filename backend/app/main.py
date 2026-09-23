@@ -65,6 +65,7 @@ async def prometheus_middleware(request: Request, call_next):
     started = time.perf_counter()
     response = await call_next(request)
     route = request.scope.get("route")
+    # Label by route template, not raw URL, to keep metric cardinality small.
     path = getattr(route, "path", "unmatched")
     REQUESTS.labels(request.method, path, str(response.status_code)).inc()
     LATENCY.labels(path).observe(time.perf_counter() - started)
