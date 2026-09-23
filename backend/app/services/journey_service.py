@@ -47,6 +47,7 @@ def today() -> date:
 
 
 def encode_journey_id(journey: Journey) -> str:
+    # Stateless id: enough to rebuild the journey later for /live, no database row needed.
     payload = {"d": journey.service_date.isoformat(),
                "l": [[leg.trip_id, leg.board_pos, leg.alight_pos] for leg in journey.legs]}
     raw = json.dumps(payload, separators=(",", ":")).encode()
