@@ -39,6 +39,7 @@ from app.engine.features import (  # noqa: E402
 PROCESSED = ROOT / "data" / "processed"
 ARTIFACTS = ROOT / "ml" / "artifacts"
 RNG = np.random.default_rng(42)
+MONTH_SLICES = 4
 
 
 def load_events(months: list[str], per_month: int) -> pd.DataFrame:
@@ -47,7 +48,12 @@ def load_events(months: list[str], per_month: int) -> pd.DataFrame:
         path = PROCESSED / f"delays-{month}.parquet"
         stops = pd.read_parquet(path)
         stops = stops[~stops["is_additional_stop"]]
-        events = events_from_stops(stops)
+        # Build events in slices grouped by ride (a ride never spans two slices), so the copy and sort in
+        # events_from_stops need only a fraction of the memory of a full month.
+        slice_id = pd.util.hash_array(stops["train_line_ride_id"].astype(str).to_numpy()) % MONTH_SLICES
+        events = pd.concat([events_from_stops(stops[slice_id == i]) for i in range(MONTH_SLICES)],
+                           ignore_index=True)
+        del stops, slice_id
         # Same sample size per month, so busy months do not dominate training.
         if per_month and len(events) > per_month:
             events = events.sample(per_month, random_state=int(RNG.integers(1 << 30)))

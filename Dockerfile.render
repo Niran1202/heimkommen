@@ -1,0 +1,43 @@
+# Single-container image for Render: React build + FastAPI + SQLite timetable, no Redis/Postgres/Celery.
+# The timetable DB is built at image build time from the official NVBW feed, the model comes from a GitHub
+# Release asset (artifacts are not in git, see ADR 0003).
+#   build args: GTFS_URL (NVBW bwgesamt GTFS zip), MODEL_URL (tar.gz of ml/artifacts: current.json + delay_model_vN/)
+
+FROM node:20-alpine AS web
+WORKDIR /app
+COPY frontend/package.json frontend/package-lock.json ./
+RUN npm ci
+COPY frontend .
+ARG VITE_OPERATOR_NAME
+ARG VITE_OPERATOR_ADDRESS
+ARG VITE_OPERATOR_EMAIL
+RUN npm run build
+
+FROM python:3.12-slim
+ENV PYTHONDONTWRITEBYTECODE=1 PYTHONUNBUFFERED=1 PIP_NO_CACHE_DIR=1 PYTHONPATH=/app/backend
+RUN apt-get update && apt-get install -y --no-install-recommends libgomp1 curl && rm -rf /var/lib/apt/lists/*
+WORKDIR /app
+
+COPY backend/pyproject.toml backend/pyproject.toml
+RUN mkdir -p backend/app && touch backend/app/__init__.py && pip install --upgrade pip && pip install ./backend \
+    && rm -rf backend/app
+COPY backend backend
+COPY scripts scripts
+COPY ml/artifacts/station_map.csv ml/artifacts/evaluation.json ml/artifacts/
+COPY --from=web /app/dist /app/static
+
+ARG GTFS_URL
+ARG MODEL_URL
+ENV DATABASE_URL=sqlite:////app/data/heimkommen.db DATA_DIR=/app/data ARTIFACTS_DIR=/app/ml/artifacts \
+    STATIC_DIR=/app/static APP_ENV=production
+RUN test -n "$GTFS_URL" && test -n "$MODEL_URL" \
+    && mkdir -p data \
+    && curl -fL "$MODEL_URL" | tar -xz -C ml/artifacts \
+    && curl -fL -o data/bwgesamt.zip "$GTFS_URL" \
+    && python scripts/ingest_gtfs.py --path data/bwgesamt.zip \
+    && rm data/bwgesamt.zip \
+    && python scripts/load_station_map.py ml/artifacts/station_map.csv \
+    && python scripts/seed_demo.py
+
+EXPOSE 10000
+CMD ["sh", "-c", "cd backend && alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-10000} --proxy-headers"]

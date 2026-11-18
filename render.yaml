@@ -1,0 +1,20 @@
+# Render Blueprint: one free web service built from Dockerfile.render (demo deployment).
+# New > Blueprint in the Render dashboard, pick this repo, then fill in the two build URLs.
+services:
+  - type: web
+    name: heimkommen
+    runtime: docker
+    dockerfilePath: ./Dockerfile.render
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: GTFS_URL        # NVBW bwgesamt GTFS zip link from https://www.nvbw.de/open-data
+        sync: false
+      - key: MODEL_URL       # GitHub Release asset: tar.gz of ml/artifacts (current.json + delay_model_vN)
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: SIMULATOR_RUNS
+        value: "500"
+      - key: ACCOUNTS_ENABLED
+        value: "true"
