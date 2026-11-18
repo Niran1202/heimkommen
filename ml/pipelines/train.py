@@ -106,6 +106,16 @@ def baseline_predict(frame: pd.DataFrame, tables: dict) -> np.ndarray:
     return out
 
 
+def score_model(version: str, frame: pd.DataFrame, y: np.ndarray) -> float:
+    """Mean pinball loss (planning mode) of an already trained version on the given test rows."""
+    folder = ARTIFACTS / f"delay_model_{version}"
+    categories = json.loads((folder / "meta.json").read_text(encoding="utf-8"))["categories"]
+    x = encode(frame, categories)
+    losses = [pinball(y, lgb.Booster(model_file=str(folder / f"q{int(q * 100):02d}.txt")).predict(x), q)
+              for q in QUANTILES]
+    return float(np.mean(losses))
+
+
 def next_version() -> str:
     existing = [int(p.name.split("_v")[-1]) for p in ARTIFACTS.glob("delay_model_v*") if p.is_dir()]
     return f"v{max(existing, default=0) + 1}"
@@ -229,9 +239,12 @@ def main() -> None:
     current = json.loads(current_file.read_text(encoding="utf-8")) if current_file.exists() else None
     activate = args.force or current is None
     if current and not activate:
-        old_meta_path = ARTIFACTS / f"delay_model_{current['version']}" / "meta.json"
-        old_meta = json.loads(old_meta_path.read_text(encoding="utf-8"))
-        activate = summary["model_plan"] <= old_meta["mean_pinball"]["model_plan"] + 1e-9
+        # Both models are scored on the SAME test months; comparing against the stored score of the old
+        # model would compare different months (some months are simply harder).
+        old_score = score_model(current["version"], test_plan, y_test)
+        print(f"current {current['version']} on these test months: {old_score:.4f}  "
+              f"(new {version}: {summary['model_plan']:.4f})")
+        activate = summary["model_plan"] <= old_score + 1e-9
     if activate:
         current_file.write_text(json.dumps({"version": version}), encoding="utf-8")
         print(f"activated delay model {version} -> {out_dir.relative_to(ROOT)}")
