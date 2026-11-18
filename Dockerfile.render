@@ -30,14 +30,26 @@ ARG GTFS_URL
 ARG MODEL_URL
 ENV DATABASE_URL=sqlite:////app/data/heimkommen.db DATA_DIR=/app/data ARTIFACTS_DIR=/app/ml/artifacts \
     STATIC_DIR=/app/static APP_ENV=production
-RUN test -n "$GTFS_URL" && test -n "$MODEL_URL" \
-    && mkdir -p data \
-    && curl -fL "$MODEL_URL" | tar -xz -C ml/artifacts \
-    && curl -fL -o data/bwgesamt.zip "$GTFS_URL" \
-    && python scripts/ingest_gtfs.py --path data/bwgesamt.zip \
-    && rm data/bwgesamt.zip \
-    && python scripts/load_station_map.py ml/artifacts/station_map.csv \
-    && python scripts/seed_demo.py
+# Separate steps so the build log shows exactly which one fails. URLs are trimmed of stray whitespace/newlines
+# that come from pasting into the dashboard.
+RUN set -eux; \
+    MODEL_URL="$(printf %s "$MODEL_URL" | tr -d '[:space:]')"; \
+    test -n "$MODEL_URL" || { echo "MODEL_URL is empty"; exit 1; }; \
+    mkdir -p data; \
+    curl -fSL --retry 3 -o /tmp/model.tar.gz "$MODEL_URL"; \
+    tar -xzf /tmp/model.tar.gz -C ml/artifacts; \
+    rm /tmp/model.tar.gz; \
+    cat ml/artifacts/current.json; ls ml/artifacts
+
+RUN set -eux; \
+    GTFS_URL="$(printf %s "$GTFS_URL" | tr -d '[:space:]')"; \
+    test -n "$GTFS_URL" || { echo "GTFS_URL is empty"; exit 1; }; \
+    curl -fSL --retry 3 -o data/bwgesamt.zip "$GTFS_URL"; \
+    ls -la data/bwgesamt.zip
+
+RUN set -eux; python scripts/ingest_gtfs.py --path data/bwgesamt.zip; rm data/bwgesamt.zip
+RUN set -eux; python scripts/load_station_map.py ml/artifacts/station_map.csv
+RUN set -eux; python scripts/seed_demo.py
 
 EXPOSE 10000
 CMD ["sh", "-c", "cd backend && alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-10000} --proxy-headers"]
