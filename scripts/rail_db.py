@@ -1,4 +1,4 @@
-"""Runner for the delay data platform (SQL layer).
+"""Runner for the delay data platform (SQL layer). Checking and merging happen in rail.load_month().
 
     python scripts/rail_db.py init                         # apply sql/*.sql in order
     python scripts/rail_db.py load --months 2026-05 2026-06 # parquet -> staging -> fact table
@@ -30,28 +30,6 @@ STAGING_COLUMNS = [
     "is_additional_stop", "is_replacement_train",
 ]
 
-# Phase 1 merge: plain insert. Phase 2 replaces this by the validating rail.load_month() function.
-MERGE_SQL = """
-INSERT INTO rail.fact_stop_event (
-    id, event_ts, source_month, ride_id, station_num, eva, station_name, train_type, train_number, line_number,
-    final_destination, arrival_planned, arrival_actual, departure_planned, departure_actual,
-    arrival_delay_min, departure_delay_min, arrival_cancelled, departure_cancelled, is_replacement)
-SELECT id, COALESCE(departure_planned_time, arrival_planned_time), %(month)s, train_line_ride_id,
-       train_line_station_num, eva, station_name, train_type, train_number, line_number,
-       final_destination_station, arrival_planned_time, arrival_change_time, departure_planned_time,
-       departure_change_time,
-       EXTRACT(EPOCH FROM arrival_change_time - arrival_planned_time) / 60,
-       EXTRACT(EPOCH FROM departure_change_time - departure_planned_time) / 60,
-       COALESCE(arrival_is_canceled, false), COALESCE(departure_is_canceled, false),
-       COALESCE(is_replacement_train, false)
-FROM rail.stg_delay_month
-WHERE NOT COALESCE(is_additional_stop, false)
-  AND COALESCE(departure_planned_time, arrival_planned_time) IS NOT NULL
-  AND train_line_ride_id IS NOT NULL AND train_line_station_num IS NOT NULL
-ON CONFLICT (id, event_ts) DO NOTHING
-"""
-
-
 def connect() -> psycopg.Connection:
     return psycopg.connect(URL, autocommit=True)
 
@@ -81,15 +59,18 @@ def load_month(conn: psycopg.Connection, month: str) -> None:
     staged = conn.execute("SELECT count(*) FROM rail.stg_delay_month").fetchone()[0]
     if staged != expected:
         raise SystemExit(f"{month}: staged {staged:,} rows but the file has {expected:,}")
-    # Partitions for every month the planned times touch (a ride can start in the previous month).
-    for (first,) in conn.execute(
-            "SELECT DISTINCT date_trunc('month', COALESCE(departure_planned_time, arrival_planned_time)) "
-            "FROM rail.stg_delay_month WHERE COALESCE(departure_planned_time, arrival_planned_time) IS NOT NULL"
-    ).fetchall():
-        conn.execute("SELECT rail.ensure_partition(%s)", (first,))
-    cur = conn.execute(MERGE_SQL, {"month": month})
-    conn.execute("TRUNCATE rail.stg_delay_month")
-    print(f"{month}: staged {staged:,}, merged {cur.rowcount:,} rows")
+    try:
+        result = conn.execute("SELECT rail.load_month(%s)", (month,)).fetchone()[0]
+    except Exception as exc:
+        # The function runs in one transaction, so a crash rolls back its own log row: record the failure here.
+        conn.execute("INSERT INTO rail.load_log (month, status, finished_at, rows_staged, reason) "
+                     "VALUES (%s, 'failed', now(), %s, %s)", (month, staged, str(exc)[:500]))
+        raise
+    finally:
+        conn.execute("TRUNCATE rail.stg_delay_month")
+    print(f"{month}: staged {staged:,}, {result}")
+    if result.startswith("rejected"):
+        raise SystemExit(2)
 
 
 def counts() -> None:
