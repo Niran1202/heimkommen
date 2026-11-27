@@ -114,6 +114,26 @@ in CI.
 A self-contained Windows version (installer, no login, timetable and model included) is built from
 [`desktop/`](desktop/README.md) with `python desktop/build.py`.
 
+## Roadmap: from journey planner to delay data platform (planned, not built yet)
+
+Heimkommen answers the traveler's question: *will I get home tonight?* The next step answers the operations
+question behind it: **where do delays start, and how far do they spread?** Working name: *Kettenreaktion*. It would
+reuse the same Deutsche Bahn data and the same API, so it grows the product instead of starting a second one.
+
+Planned scope:
+
+- **Ingest:** check each month for the new delay file and store it unchanged, so any month can be replayed.
+- **Load and check:** load into a staging table, then validate and merge in one SQL function that refuses
+  incomplete files (for example far fewer rows than usual). Today this is the monthly job in
+  [`ml/pipelines/monthly_update.py`](ml/pipelines/monthly_update.py).
+- **Model in SQL:** a fact table partitioned by month; window functions that split a delay into "brought from the
+  previous stop" and "created here"; a self-join that finds trains that waited for a late feeder; a recursive query
+  that follows a delay wave by wave.
+- **Serve and operate:** the existing FastAPI app, with logs, an alert when the monthly load fails, and an
+  incident log of real failures.
+
+Hosting target is open (the current deployment options are described in [docs/architecture.md](docs/architecture.md)).
+
 ## Data sources
 
 Timetable © [NVBW](https://www.nvbw.de/open-data) · delay history from
